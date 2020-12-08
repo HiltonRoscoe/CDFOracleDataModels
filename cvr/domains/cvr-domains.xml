@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="cvr-domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportingUnitType" id="0629B2F0-772F-6055-4983-69D32CA1F2B0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="combined-precinct" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="polling-place" description=""/>
+<valueDef value="precinct" description=""/>
+<valueDef value="split-precinct" description=""/>
+<valueDef value="vote-center" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportType" id="0AA6B795-6658-1820-37FF-AC80463784CF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="adjudicated" description=""/>
+<valueDef value="aggregated" description=""/>
+<valueDef value="originating-device-export" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="rcv-round" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ContestSelectionStatus" id="1DFD420C-C8F0-9EFF-6E5C-20EB8BAD017B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="generated-rules" description=""/>
+<valueDef value="invalidated-rules" description=""/>
+<valueDef value="needs-adjudication" description=""/>
+<valueDef value="other" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CVRStatus" id="2C556B93-4211-B014-2B19-8DCCB71F119A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="needs-adjudication" description=""/>
+<valueDef value="other" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VoteVariation" id="34143DBA-2F16-46E4-D496-141AA32EB8A1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="approval" description=""/>
+<valueDef value="borda" description=""/>
+<valueDef value="cumulative" description=""/>
+<valueDef value="majority" description=""/>
+<valueDef value="n-of-m" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="plurality" description=""/>
+<valueDef value="proportional" description=""/>
+<valueDef value="range" description=""/>
+<valueDef value="rcv" description=""/>
+<valueDef value="super-majority" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="PositionStatus" id="3F0D216A-7874-1747-03C8-F21D0272BCF3">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="adjudicated" description=""/>
+<valueDef value="generated-rules" description=""/>
+<valueDef value="invalidated-rules" description=""/>
+<valueDef value="other" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="HashType" id="62E5D33B-46C2-1C45-4189-82B54B497FDD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="md6" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="sha-256" description=""/>
+<valueDef value="sha-512" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CVRType" id="74984B3F-EFB2-E4F6-966B-189A89409EEF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="interpreted" description=""/>
+<valueDef value="modified" description=""/>
+<valueDef value="original" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CastVoteRecordVersion" id="B4122E1A-383B-C3E2-C866-8AFA4585545A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="1.0.0" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ContestStatus" id="C01673DD-17F8-CA46-A909-D2274328F4AE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="invalidated-rules" description=""/>
+<valueDef value="not-indicated" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="overvoted" description=""/>
+<valueDef value="undervoted" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IndicationStatus" id="C659ABDB-65BD-54F9-0496-B5A2381188FF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="no" description=""/>
+<valueDef value="unknown" description=""/>
+<valueDef value="yes" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="AllocationStatus" id="D46C7842-ED1A-9681-B17C-91B1F58B67EE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:53 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="no" description=""/>
+<valueDef value="unknown" description=""/>
+<valueDef value="yes" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IdentifierType" id="F12B51A9-B6DB-0F53-195B-34E3AF572D9F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cvr-domains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="fips" description=""/>
+<valueDef value="local-level" description=""/>
+<valueDef value="national-level" description=""/>
+<valueDef value="ocd-id" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="state-level" description=""/>
+</listOfValues>
+</Domain>
+</domains>
+</DomainFile>
