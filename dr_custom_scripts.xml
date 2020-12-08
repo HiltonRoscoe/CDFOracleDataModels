@@ -3557,7 +3557,7 @@ for (var t = 0; t < tables.length; t++) {
 }]]>
 		</script>
 	</scr>
-	<scr id="CB98C178-4EC8-F9BB-8FAD-55147C99BE5A" name="Tr_15" object="logical" engine="Oracle Nashorn" type="" var="model" library="" method="" purpose="transformation" >
+	<scr id="CB98C178-4EC8-F9BB-8FAD-55147C99BE5A" name="ERR" object="logical" engine="Oracle Nashorn" type="" var="model" library="" method="" purpose="transformation" >
 		<script>
 			<![CDATA[design = model.getDesign();
 
@@ -6442,6 +6442,1676 @@ for (var t = 0; t<tables.length;t++){
         }
      } 
 }]]>
+		</script>
+	</scr>
+	<scr id="5322AC78-8C7A-29F5-A425-E456445DD4EC" name="CVR" object="logical" engine="Oracle Nashorn" type="" var="model" library="" method="" purpose="transformation" >
+		<script>
+			<![CDATA[design = model.getDesign();
+
+// create enumerations
+{
+  domain = design.createDomain();
+  domain.name = "AllocationStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("no","");
+      ce.add("unknown","");
+      ce.add("yes","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "CVRStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("needs-adjudication","");
+      ce.add("other","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "CVRType";
+  ce = domain.createConstraintEnumeration();
+      ce.add("interpreted","");
+      ce.add("modified","");
+      ce.add("original","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "CastVoteRecordVersion";
+  ce = domain.createConstraintEnumeration();
+      ce.add("1.0.0","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "ContestSelectionStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("generated-rules","");
+      ce.add("invalidated-rules","");
+      ce.add("needs-adjudication","");
+      ce.add("other","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "ContestStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("invalidated-rules","");
+      ce.add("not-indicated","");
+      ce.add("other","");
+      ce.add("overvoted","");
+      ce.add("undervoted","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "HashType";
+  ce = domain.createConstraintEnumeration();
+      ce.add("md6","");
+      ce.add("other","");
+      ce.add("sha-256","");
+      ce.add("sha-512","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "IdentifierType";
+  ce = domain.createConstraintEnumeration();
+      ce.add("fips","");
+      ce.add("local-level","");
+      ce.add("national-level","");
+      ce.add("ocd-id","");
+      ce.add("other","");
+      ce.add("state-level","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "IndicationStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("no","");
+      ce.add("unknown","");
+      ce.add("yes","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "PositionStatus";
+  ce = domain.createConstraintEnumeration();
+      ce.add("adjudicated","");
+      ce.add("generated-rules","");
+      ce.add("invalidated-rules","");
+      ce.add("other","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "ReportType";
+  ce = domain.createConstraintEnumeration();
+      ce.add("adjudicated","");
+      ce.add("aggregated","");
+      ce.add("originating-device-export","");
+      ce.add("other","");
+      ce.add("rcv-round","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "ReportingUnitType";
+  ce = domain.createConstraintEnumeration();
+      ce.add("combined-precinct","");
+      ce.add("other","");
+      ce.add("polling-place","");
+      ce.add("precinct","");
+      ce.add("split-precinct","");
+      ce.add("vote-center","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+{
+  domain = design.createDomain();
+  domain.name = "VoteVariation";
+  ce = domain.createConstraintEnumeration();
+      ce.add("approval","");
+      ce.add("borda","");
+      ce.add("cumulative","");
+      ce.add("majority","");
+      ce.add("n-of-m","");
+      ce.add("other","");
+      ce.add("plurality","");
+      ce.add("proportional","");
+      ce.add("range","");
+      ce.add("rcv","");
+      ce.add("super-majority","");
+  }
+domain.setValueList(ce);
+type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+domain.setLogicalDatatype(type);
+// a reasonable length for enumeration values
+domain.setDataTypeSize(50);
+// create entities
+entity = model.createEntity();
+entity.setName("Annotation");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("TimeStamp")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Timestamp");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("BallotMeasureContest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("BallotMeasureSelection");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Selection")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("CVR");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("BallotAuditId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("BallotPrePrintedId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("BallotSheetId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("BallotStyleId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("BatchId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("BatchSequenceId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("UniqueId")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CVRContest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("OtherStatus")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Overvotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Selections")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Undervotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("WriteIns")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CVRContestSelection");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("OptionPosition")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("OtherStatus")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Rank")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("TotalFractionalVotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("TotalNumberVotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CVRSnapshot");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("OtherStatus")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Type")
+    domains = design.getDomainSet();
+  domain = domains.getByName("CVRType");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("CVRWriteIn");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Text")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("Candidate");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Name")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CandidateContest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("NumberElected")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("VotesAllowed")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CandidateSelection");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("IsWriteIn")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Boolean");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("CastVoteRecordReport");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("GeneratedDate")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Timestamp");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("Notes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("OtherReportType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Version")
+    domains = design.getDomainSet();
+  domain = domains.getByName("CastVoteRecordVersion");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("Code");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Label")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("OtherType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Type")
+    domains = design.getDomainSet();
+  domain = domains.getByName("IdentifierType");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("Value")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("Contest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+entity.setCompleteSubtypes(true);
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Abbreviation")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Name")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("OtherVoteVariation")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("VoteVariation")
+    domains = design.getDomainSet();
+  domain = domains.getByName("VoteVariation");
+  attribute.setDomain(domain);
+    entity = model.createEntity();
+entity.setName("ContestSelection");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("Election");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Name")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("File");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Data")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("BLOB");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("FileName")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("MimeType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("GpUnit");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Name")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("OtherType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Type")
+    domains = design.getDomainSet();
+  domain = domains.getByName("ReportingUnitType");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("Hash");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("OtherType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Type")
+    domains = design.getDomainSet();
+  domain = domains.getByName("HashType");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("Value")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  entity = model.createEntity();
+entity.setName("Image");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("ImageData");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Location")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("Party");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Abbreviation")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Name")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("PartyContest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("PartySelection");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("ReportingDevice");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("Application")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Manufacturer")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("MarkMetricType")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Model")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("SerialNumber")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    entity = model.createEntity();
+entity.setName("RetentionContest");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+entity = model.createEntity();
+entity.setName("SelectionPosition");
+// color for regular entity
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(199/360,0.35,0.90));
+
+// create attributes under entity
+attribute = entity.createAttribute();
+
+attribute.setName("FractionalVotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("HasIndication")
+    domains = design.getDomainSet();
+  domain = domains.getByName("IndicationStatus");
+  attribute.setDomain(domain);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("IsAllocable")
+    domains = design.getDomainSet();
+  domain = domains.getByName("AllocationStatus");
+  attribute.setDomain(domain);
+    attribute = entity.createAttribute();
+
+attribute.setName("IsGenerated")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Boolean");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("NumberVotes")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+      attribute.setNullsAllowed(false);
+  attribute = entity.createAttribute();
+
+attribute.setName("OtherStatus")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Position")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    attribute = entity.createAttribute();
+
+attribute.setName("Rank")
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("Integer");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+    // DO SECOND PASS OF ENTITIES
+      entity = model.createEntity();
+sourceName = "AnnotationAdjudicatorName";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("AdjudicatorName")
+// DETERMINE DATA TYPE
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+   
+    target = model.getEntitySet().getByName("Annotation");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("Annotation_AdjudicatorName");
+      relation.setProperty("fkRole", "Annotation");
+    entity = model.createEntity();
+sourceName = "AnnotationMessage";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Message")
+// DETERMINE DATA TYPE
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+   
+    target = model.getEntitySet().getByName("Annotation");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("Annotation_Message");
+      relation.setProperty("fkRole", "Annotation");
+        source = model.getEntitySet().getByName("BallotMeasureContest");
+    target = model.getEntitySet().getByName("Contest");
+  source.setHierarchicalParent(target);
+        source = model.getEntitySet().getByName("BallotMeasureSelection");
+    target = model.getEntitySet().getByName("ContestSelection");
+  source.setHierarchicalParent(target);
+        sourceName = "ImageData";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("BallotImage");
+      relation.setName("CVR_BallotImage");
+      relation.setProperty("fkRole", "CVR");
+    sourceName = "GpUnit";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("BallotStyleUnit");
+      relation.setName("CVR_BallotStyleUnit");
+          relation.setProperty("fkRole", "BallotStyleUnit");
+    sourceName = "ReportingDevice";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("CreatingDevice");
+      relation.setName("CVR_CreatingDevice");
+          relation.setProperty("fkRole", "CreatingDevice");
+    sourceName = "CVRSnapshot";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+      relation.setNameOnTarget("");
+      relation.setName("CVR_");
+      relation.setProperty("fkRole", "CVR");
+    sourceName = "Election";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(true);
+        relation.setName("CVR_Election");
+    sourceName = "Party";
+ 
+    target = model.getEntitySet().getByName("CVR");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("CVR_Party");
+        sourceName = "Contest";
+ 
+    target = model.getEntitySet().getByName("CVRContest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(true);
+        relation.setName("CVRContest_Contest");
+    sourceName = "CVRContestSelection";
+ 
+    target = model.getEntitySet().getByName("CVRContest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRContest_CVRContestSelection");
+    entity = model.createEntity();
+sourceName = "CVRContestStatus";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Status")
+// DETERMINE DATA TYPE
+    domains = design.getDomainSet();
+  domain = domains.getByName("ContestStatus");
+  attribute.setDomain(domain);
+   
+    target = model.getEntitySet().getByName("CVRContest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRContest_Status");
+      relation.setProperty("fkRole", "CVRContest");
+        sourceName = "ContestSelection";
+ 
+    target = model.getEntitySet().getByName("CVRContestSelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("CVRContestSelection_ContestSelection");
+    sourceName = "SelectionPosition";
+ 
+    target = model.getEntitySet().getByName("CVRContestSelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("CVRContestSelection_SelectionPosition");
+    entity = model.createEntity();
+sourceName = "CVRContestSelectionStatus";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Status")
+// DETERMINE DATA TYPE
+    domains = design.getDomainSet();
+  domain = domains.getByName("ContestSelectionStatus");
+  attribute.setDomain(domain);
+   
+    target = model.getEntitySet().getByName("CVRContestSelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRContestSelection_Status");
+      relation.setProperty("fkRole", "CVRContestSelection");
+        sourceName = "Annotation";
+ 
+    target = model.getEntitySet().getByName("CVRSnapshot");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRSnapshot_Annotation");
+    sourceName = "CVRContest";
+ 
+    target = model.getEntitySet().getByName("CVRSnapshot");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRSnapshot_CVRContest");
+    entity = model.createEntity();
+sourceName = "CVRSnapshotStatus";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Status")
+// DETERMINE DATA TYPE
+    domains = design.getDomainSet();
+  domain = domains.getByName("CVRStatus");
+  attribute.setDomain(domain);
+   
+    target = model.getEntitySet().getByName("CVRSnapshot");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CVRSnapshot_Status");
+      relation.setProperty("fkRole", "CVRSnapshot");
+        sourceName = "ImageData";
+ 
+    target = model.getEntitySet().getByName("CVRWriteIn");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("WriteInImage");
+      relation.setName("CVRWriteIn_WriteInImage");
+          relation.setProperty("fkRole", "WriteInImage");
+        sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("Candidate");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("Candidate_Code");
+    sourceName = "Party";
+ 
+    target = model.getEntitySet().getByName("Candidate");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("Candidate_Party");
+        source = model.getEntitySet().getByName("CandidateContest");
+    target = model.getEntitySet().getByName("Contest");
+  source.setHierarchicalParent(target);
+    sourceName = "Party";
+ 
+    target = model.getEntitySet().getByName("CandidateContest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("PrimaryParty");
+      relation.setName("CandidateContest_PrimaryParty");
+          relation.setProperty("fkRole", "PrimaryParty");
+        source = model.getEntitySet().getByName("CandidateSelection");
+    target = model.getEntitySet().getByName("ContestSelection");
+  source.setHierarchicalParent(target);
+    sourceName = "Candidate";
+ 
+    target = model.getEntitySet().getByName("CandidateSelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("CandidateSelection_Candidate");
+        sourceName = "CVR";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_CVR");
+    sourceName = "Election";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_Election");
+    sourceName = "GpUnit";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_GpUnit");
+    sourceName = "Party";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_Party");
+    sourceName = "ReportingDevice";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("ReportGeneratingDevice");
+      relation.setName("CastVoteRecordReport_ReportGeneratingDevice");
+      relation.setProperty("fkRole", "CastVoteRecordReport");
+    entity = model.createEntity();
+sourceName = "CastVoteRecordReportReportType";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("ReportType")
+// DETERMINE DATA TYPE
+    domains = design.getDomainSet();
+  domain = domains.getByName("ReportType");
+  attribute.setDomain(domain);
+   
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_ReportType");
+    sourceName = "ReportingDevice";
+ 
+    target = model.getEntitySet().getByName("CastVoteRecordReport");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("CastVoteRecordReport_ReportingDevice");
+            sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("Contest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("Contest_Code");
+    sourceName = "ContestSelection";
+ 
+    target = model.getEntitySet().getByName("Contest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("Contest_ContestSelection");
+        sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("ContestSelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("ContestSelection_Code");
+        sourceName = "Candidate";
+ 
+    target = model.getEntitySet().getByName("Election");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("Election_Candidate");
+    sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("Election");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("Election_Code");
+    sourceName = "Contest";
+ 
+    target = model.getEntitySet().getByName("Election");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(false);
+        relation.setName("Election_Contest");
+    sourceName = "GpUnit";
+ 
+    target = model.getEntitySet().getByName("Election");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(true);
+      relation.setNameOnTarget("ElectionScope");
+      relation.setName("Election_ElectionScope");
+          relation.setProperty("fkRole", "ElectionScope");
+            sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("GpUnit");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("GpUnit_Code");
+    sourceName = "ReportingDevice";
+ 
+    target = model.getEntitySet().getByName("GpUnit");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("GpUnit_ReportingDevice");
+            source = model.getEntitySet().getByName("Image");
+    target = model.getEntitySet().getByName("File");
+  source.setHierarchicalParent(target);
+        sourceName = "Hash";
+ 
+    target = model.getEntitySet().getByName("ImageData");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("ImageData_Hash");
+    sourceName = "Image";
+ 
+    target = model.getEntitySet().getByName("ImageData");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("ImageData_Image");
+        sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("Party");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("Party_Code");
+        source = model.getEntitySet().getByName("PartyContest");
+    target = model.getEntitySet().getByName("Contest");
+  source.setHierarchicalParent(target);
+        source = model.getEntitySet().getByName("PartySelection");
+    target = model.getEntitySet().getByName("ContestSelection");
+  source.setHierarchicalParent(target);
+    sourceName = "Party";
+ 
+    target = model.getEntitySet().getByName("PartySelection");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("*");
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(false);
+          relation.setOptionalSource(true);
+        relation.setName("PartySelection_Party");
+        sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("ReportingDevice");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("ReportingDevice_Code");
+    entity = model.createEntity();
+sourceName = "ReportingDeviceNotes";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Notes")
+// DETERMINE DATA TYPE
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+   
+    target = model.getEntitySet().getByName("ReportingDevice");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("ReportingDevice_Notes");
+      relation.setProperty("fkRole", "ReportingDevice");
+        source = model.getEntitySet().getByName("RetentionContest");
+    target = model.getEntitySet().getByName("BallotMeasureContest");
+  source.setHierarchicalParent(target);
+    sourceName = "Candidate";
+ 
+    target = model.getEntitySet().getByName("RetentionContest");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("*");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("RetentionContest_Candidate");
+        sourceName = "Code";
+ 
+    target = model.getEntitySet().getByName("SelectionPosition");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("*");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(true);
+        relation.setName("SelectionPosition_Code");
+    sourceName = "CVRWriteIn";
+ 
+    target = model.getEntitySet().getByName("SelectionPosition");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+ 
+    relation.setSourceCardinalityString("1");
+  relation.setDominantRole(source);
+      relation.setTargetCardinalityString("1");
+    
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("SelectionPosition_CVRWriteIn");
+    entity = model.createEntity();
+sourceName = "SelectionPositionMarkMetricValue";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("MarkMetricValue")
+// DETERMINE DATA TYPE
+    // primitive type 
+  type = model.getDesign().getLogicalDatatypeSet().getLogTypeByName("String");
+  attribute.setLogicalDatatype(type);
+  attribute.setDomain(null);
+   
+    target = model.getEntitySet().getByName("SelectionPosition");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("SelectionPosition_MarkMetricValue");
+      relation.setProperty("fkRole", "SelectionPosition");
+    entity = model.createEntity();
+sourceName = "SelectionPositionStatus";
+entity.setName(sourceName);
+entity.setUseDefaultColor(false);
+entity.setBackgroundColor(java.awt.Color.getHSBColor(0,0,0.90));
+
+attribute = entity.createAttribute();
+attribute.setName("Status")
+// DETERMINE DATA TYPE
+    domains = design.getDomainSet();
+  domain = domains.getByName("PositionStatus");
+  attribute.setDomain(domain);
+   
+    target = model.getEntitySet().getByName("SelectionPosition");
+  source = model.getEntitySet().getByName(sourceName);
+  relation = model.createRelation();
+  relation.setSourceEntity(source);
+  relation.setTargetEntity(target);
+relation.setSourceCardinalityString("*");
+relation.setTargetCardinalityString("1");
+  
+      relation.setOptionalTarget(true);
+          relation.setOptionalSource(false);
+        relation.setName("SelectionPosition_Status");
+      relation.setProperty("fkRole", "SelectionPosition");
+  
+]]>
 		</script>
 	</scr>
 
