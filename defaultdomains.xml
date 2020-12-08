@@ -1,0 +1,1129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BallotMeasureTypev2" id="07133179-2C06-9512-BF42-36AB83ADD9DC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-measure" description=""/>
+<valueDef value="initiative" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="recall" description=""/>
+<valueDef value="referendum" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportDetailLevelv1" id="0A450D67-E3CE-FC91-B5E5-5AAFE0793B93">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="precinct-level" description=""/>
+<valueDef value="summary-contest" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VoteVariationv2" id="11E2E0EA-D53F-24DC-2147-E5F61EA8D20F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="approval" description=""/>
+<valueDef value="borda" description=""/>
+<valueDef value="cumulative" description=""/>
+<valueDef value="majority" description=""/>
+<valueDef value="n-of-m" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="plurality" description=""/>
+<valueDef value="proportional" description=""/>
+<valueDef value="range" description=""/>
+<valueDef value="rcv" description=""/>
+<valueDef value="super-majority" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ElectionTypev1" id="1433E0FD-929F-CD56-5A1C-85AD61D04321">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="general" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="partisan-primary-closed" description=""/>
+<valueDef value="partisan-primary-open" description=""/>
+<valueDef value="primary" description=""/>
+<valueDef value="runoff" description=""/>
+<valueDef value="special" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemStatus" id="15F7F181-B1A4-FDC3-191B-05863024191C">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="completed" description=""/>
+<valueDef value="in-process" description=""/>
+<valueDef value="not-processed" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DeviceTypev2" id="177EB050-CEEE-4B35-4AC8-37B1C1C295BF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="bmd" description=""/>
+<valueDef value="dre" description=""/>
+<valueDef value="manual-count" description=""/>
+<valueDef value="opscan-central" description=""/>
+<valueDef value="opscan-precinct" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportDetailLevel" id="1BD9D134-1EC3-0DF7-100A-178B57BE8088">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="precinct-level" description=""/>
+<valueDef value="summary-contest" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePreElectionStatus" id="1CDC9C31-4D71-2EAF-6082-AD2453B00A77">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="filed" description=""/>
+<valueDef value="qualified" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DeviceTypev3" id="2137F14C-05AB-78A6-CC33-93376D942D1E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="bmd" description=""/>
+<valueDef value="dre" description=""/>
+<valueDef value="manual-count" description=""/>
+<valueDef value="opscan-central" description=""/>
+<valueDef value="opscan-precinct" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePreElectionStatusv1" id="22F309AC-B1DE-6B67-BC28-84D257B736B0">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="filed" description=""/>
+<valueDef value="qualified" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportingUnitType" id="2B1D4224-4997-BFD9-FCD1-15920899B1F4">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-batch" description=""/>
+<valueDef value="ballot-style-area" description=""/>
+<valueDef value="borough" description=""/>
+<valueDef value="city" description=""/>
+<valueDef value="city-council" description=""/>
+<valueDef value="combined-precinct" description=""/>
+<valueDef value="congressional" description=""/>
+<valueDef value="country" description=""/>
+<valueDef value="county" description=""/>
+<valueDef value="county-council" description=""/>
+<valueDef value="drop-box" description=""/>
+<valueDef value="judicial" description=""/>
+<valueDef value="municipality" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="polling-place" description=""/>
+<valueDef value="precinct" description=""/>
+<valueDef value="school" description=""/>
+<valueDef value="special" description=""/>
+<valueDef value="split-precinct" description=""/>
+<valueDef value="state" description=""/>
+<valueDef value="state-house" description=""/>
+<valueDef value="state-senate" description=""/>
+<valueDef value="town" description=""/>
+<valueDef value="township" description=""/>
+<valueDef value="utility" description=""/>
+<valueDef value="village" description=""/>
+<valueDef value="vote-center" description=""/>
+<valueDef value="ward" description=""/>
+<valueDef value="water" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePreElectionStatusv2" id="2CD87A97-E41E-4D9C-F082-0A0A3507BADD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="filed" description=""/>
+<valueDef value="qualified" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DeviceTypev1" id="318B0A67-22C5-27FB-DA75-5799524F245F">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="bmd" description=""/>
+<valueDef value="dre" description=""/>
+<valueDef value="manual-count" description=""/>
+<valueDef value="opscan-central" description=""/>
+<valueDef value="opscan-precinct" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemStatusv2" id="35806A4E-B540-E9CA-EE89-23D3D3FECEEA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="completed" description=""/>
+<valueDef value="in-process" description=""/>
+<valueDef value="not-processed" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IdentifierTypev2" id="3759040F-9F65-DF99-D712-17B6A4A07A2A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="fips" description=""/>
+<valueDef value="local-level" description=""/>
+<valueDef value="national-level" description=""/>
+<valueDef value="ocd-id" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="state-level" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemTypev1" id="38239C5F-4400-B97F-6B9A-16A72511C6C0">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="absentee" description=""/>
+<valueDef value="absentee-fwab" description=""/>
+<valueDef value="absentee-in-person" description=""/>
+<valueDef value="absentee-mail" description=""/>
+<valueDef value="early" description=""/>
+<valueDef value="election-day" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="provisional" description=""/>
+<valueDef value="seats" description=""/>
+<valueDef value="total" description=""/>
+<valueDef value="uocava" description=""/>
+<valueDef value="write-in" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DayTypev1" id="3928276B-EF29-BD06-80D5-2895E2EF9B53">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="all" description=""/>
+<valueDef value="friday" description=""/>
+<valueDef value="monday" description=""/>
+<valueDef value="saturday" description=""/>
+<valueDef value="sunday" description=""/>
+<valueDef value="thursday" description=""/>
+<valueDef value="tuesday" description=""/>
+<valueDef value="wednesday" description=""/>
+<valueDef value="weekday" description=""/>
+<valueDef value="weekend" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ResultsStatusv3" id="3C1133AF-18D0-3B4D-FE52-6E98732C502A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="certified" description=""/>
+<valueDef value="correction" description=""/>
+<valueDef value="pre-election" description=""/>
+<valueDef value="recount" description=""/>
+<valueDef value="unofficial-complete" description=""/>
+<valueDef value="unofficial-partial" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemType" id="41DB647C-526F-AB6E-C06C-2BC8A71A31EE">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="absentee" description=""/>
+<valueDef value="absentee-fwab" description=""/>
+<valueDef value="absentee-in-person" description=""/>
+<valueDef value="absentee-mail" description=""/>
+<valueDef value="early" description=""/>
+<valueDef value="election-day" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="provisional" description=""/>
+<valueDef value="seats" description=""/>
+<valueDef value="total" description=""/>
+<valueDef value="uocava" description=""/>
+<valueDef value="write-in" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="OfficeTermType" id="50C43640-DF10-6FFD-A7D0-0359B11B3560">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="full-term" description=""/>
+<valueDef value="unexpired-term" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportingUnitTypev1" id="5395A8F3-49CD-DB89-0B5A-81E021CEC3CF">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-batch" description=""/>
+<valueDef value="ballot-style-area" description=""/>
+<valueDef value="borough" description=""/>
+<valueDef value="city" description=""/>
+<valueDef value="city-council" description=""/>
+<valueDef value="combined-precinct" description=""/>
+<valueDef value="congressional" description=""/>
+<valueDef value="country" description=""/>
+<valueDef value="county" description=""/>
+<valueDef value="county-council" description=""/>
+<valueDef value="drop-box" description=""/>
+<valueDef value="judicial" description=""/>
+<valueDef value="municipality" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="polling-place" description=""/>
+<valueDef value="precinct" description=""/>
+<valueDef value="school" description=""/>
+<valueDef value="special" description=""/>
+<valueDef value="split-precinct" description=""/>
+<valueDef value="state" description=""/>
+<valueDef value="state-house" description=""/>
+<valueDef value="state-senate" description=""/>
+<valueDef value="town" description=""/>
+<valueDef value="township" description=""/>
+<valueDef value="utility" description=""/>
+<valueDef value="village" description=""/>
+<valueDef value="vote-center" description=""/>
+<valueDef value="ward" description=""/>
+<valueDef value="water" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemTypev3" id="57B6F020-CF2C-F442-FA13-FBE495982FC4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="absentee" description=""/>
+<valueDef value="absentee-fwab" description=""/>
+<valueDef value="absentee-in-person" description=""/>
+<valueDef value="absentee-mail" description=""/>
+<valueDef value="early" description=""/>
+<valueDef value="election-day" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="provisional" description=""/>
+<valueDef value="seats" description=""/>
+<valueDef value="total" description=""/>
+<valueDef value="uocava" description=""/>
+<valueDef value="write-in" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePostElectionStatusv2" id="5B22DC37-735E-D183-534C-5DEB0CC916CA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="advanced-to-runoff" description=""/>
+<valueDef value="defeated" description=""/>
+<valueDef value="projected-winner" description=""/>
+<valueDef value="winner" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ElectionTypev3" id="5B9E2B1E-FF3C-9E36-D788-1F81336D1232">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="general" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="partisan-primary-closed" description=""/>
+<valueDef value="partisan-primary-open" description=""/>
+<valueDef value="primary" description=""/>
+<valueDef value="runoff" description=""/>
+<valueDef value="special" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IdentifierTypev1" id="604261EB-FEB8-5657-A835-97FD87BE5AC4">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="fips" description=""/>
+<valueDef value="local-level" description=""/>
+<valueDef value="national-level" description=""/>
+<valueDef value="ocd-id" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="state-level" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="GeoSpatialFormatv1" id="60D59911-F463-05E4-5806-87BEF713B3B3">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="geo-json" description=""/>
+<valueDef value="gml" description=""/>
+<valueDef value="kml" description=""/>
+<valueDef value="shp" description=""/>
+<valueDef value="wkt" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemStatusv1" id="62395A9E-5847-B899-36FA-BE9F83BA79EE">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="completed" description=""/>
+<valueDef value="in-process" description=""/>
+<valueDef value="not-processed" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportingUnitTypev3" id="66AD4913-6E77-3AD3-042A-9BD37A0C3B0C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-batch" description=""/>
+<valueDef value="ballot-style-area" description=""/>
+<valueDef value="borough" description=""/>
+<valueDef value="city" description=""/>
+<valueDef value="city-council" description=""/>
+<valueDef value="combined-precinct" description=""/>
+<valueDef value="congressional" description=""/>
+<valueDef value="country" description=""/>
+<valueDef value="county" description=""/>
+<valueDef value="county-council" description=""/>
+<valueDef value="drop-box" description=""/>
+<valueDef value="judicial" description=""/>
+<valueDef value="municipality" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="polling-place" description=""/>
+<valueDef value="precinct" description=""/>
+<valueDef value="school" description=""/>
+<valueDef value="special" description=""/>
+<valueDef value="split-precinct" description=""/>
+<valueDef value="state" description=""/>
+<valueDef value="state-house" description=""/>
+<valueDef value="state-senate" description=""/>
+<valueDef value="town" description=""/>
+<valueDef value="township" description=""/>
+<valueDef value="utility" description=""/>
+<valueDef value="village" description=""/>
+<valueDef value="vote-center" description=""/>
+<valueDef value="ward" description=""/>
+<valueDef value="water" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="GeoSpatialFormat" id="6AB20DD2-EACC-8BCA-ADB7-3BA758D7F980">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="geo-json" description=""/>
+<valueDef value="gml" description=""/>
+<valueDef value="kml" description=""/>
+<valueDef value="shp" description=""/>
+<valueDef value="wkt" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ElectionType" id="6DF59680-748F-91D9-8FA4-EA5C4C5CFC0D">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="general" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="partisan-primary-closed" description=""/>
+<valueDef value="partisan-primary-open" description=""/>
+<valueDef value="primary" description=""/>
+<valueDef value="runoff" description=""/>
+<valueDef value="special" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VoteVariationv3" id="6F953E0B-ADD8-C942-55AD-2423DBF5112D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="approval" description=""/>
+<valueDef value="borda" description=""/>
+<valueDef value="cumulative" description=""/>
+<valueDef value="majority" description=""/>
+<valueDef value="n-of-m" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="plurality" description=""/>
+<valueDef value="proportional" description=""/>
+<valueDef value="range" description=""/>
+<valueDef value="rcv" description=""/>
+<valueDef value="super-majority" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="OfficeTermTypev3" id="779CEC5C-19CE-AE29-E6AF-B1C199324A94">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="full-term" description=""/>
+<valueDef value="unexpired-term" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BallotMeasureTypev1" id="89138169-CE75-E076-CE9D-64A5A8E63D29">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-measure" description=""/>
+<valueDef value="initiative" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="recall" description=""/>
+<valueDef value="referendum" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DayType" id="8DB11444-6BD2-C824-ED3F-314B59CB9E8E">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="all" description=""/>
+<valueDef value="friday" description=""/>
+<valueDef value="monday" description=""/>
+<valueDef value="saturday" description=""/>
+<valueDef value="sunday" description=""/>
+<valueDef value="thursday" description=""/>
+<valueDef value="tuesday" description=""/>
+<valueDef value="wednesday" description=""/>
+<valueDef value="weekday" description=""/>
+<valueDef value="weekend" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePostElectionStatusv3" id="8E482880-0197-84D7-1D3B-B8E9DF176697">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="advanced-to-runoff" description=""/>
+<valueDef value="defeated" description=""/>
+<valueDef value="projected-winner" description=""/>
+<valueDef value="winner" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IdentifierType" id="9AE6E001-A7DA-49CA-0C4F-9B71A97A4484">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="fips" description=""/>
+<valueDef value="local-level" description=""/>
+<valueDef value="national-level" description=""/>
+<valueDef value="ocd-id" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="state-level" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportingUnitTypev2" id="9D3C11CF-F002-5F0F-F734-48C3F6B0468B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-batch" description=""/>
+<valueDef value="ballot-style-area" description=""/>
+<valueDef value="borough" description=""/>
+<valueDef value="city" description=""/>
+<valueDef value="city-council" description=""/>
+<valueDef value="combined-precinct" description=""/>
+<valueDef value="congressional" description=""/>
+<valueDef value="country" description=""/>
+<valueDef value="county" description=""/>
+<valueDef value="county-council" description=""/>
+<valueDef value="drop-box" description=""/>
+<valueDef value="judicial" description=""/>
+<valueDef value="municipality" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="polling-place" description=""/>
+<valueDef value="precinct" description=""/>
+<valueDef value="school" description=""/>
+<valueDef value="special" description=""/>
+<valueDef value="split-precinct" description=""/>
+<valueDef value="state" description=""/>
+<valueDef value="state-house" description=""/>
+<valueDef value="state-senate" description=""/>
+<valueDef value="town" description=""/>
+<valueDef value="township" description=""/>
+<valueDef value="utility" description=""/>
+<valueDef value="village" description=""/>
+<valueDef value="vote-center" description=""/>
+<valueDef value="ward" description=""/>
+<valueDef value="water" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BallotMeasureTypev3" id="A3EA58A1-0633-176D-AB1F-016340FBF816">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-measure" description=""/>
+<valueDef value="initiative" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="recall" description=""/>
+<valueDef value="referendum" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportDetailLevelv2" id="AB44C05F-70BD-C907-7320-2F573A449A25">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="precinct-level" description=""/>
+<valueDef value="summary-contest" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DayTypev2" id="AE723BC2-783A-4060-58A2-534BC54C1DD3">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="all" description=""/>
+<valueDef value="friday" description=""/>
+<valueDef value="monday" description=""/>
+<valueDef value="saturday" description=""/>
+<valueDef value="sunday" description=""/>
+<valueDef value="thursday" description=""/>
+<valueDef value="tuesday" description=""/>
+<valueDef value="wednesday" description=""/>
+<valueDef value="weekday" description=""/>
+<valueDef value="weekend" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemTypev2" id="B18DEF75-7C21-A755-37B7-773D2FB7C2CF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="absentee" description=""/>
+<valueDef value="absentee-fwab" description=""/>
+<valueDef value="absentee-in-person" description=""/>
+<valueDef value="absentee-mail" description=""/>
+<valueDef value="early" description=""/>
+<valueDef value="election-day" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="provisional" description=""/>
+<valueDef value="seats" description=""/>
+<valueDef value="total" description=""/>
+<valueDef value="uocava" description=""/>
+<valueDef value="write-in" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ElectionTypev2" id="B63CAD5B-B1E8-163E-98CC-BB168854B817">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="general" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="partisan-primary-closed" description=""/>
+<valueDef value="partisan-primary-open" description=""/>
+<valueDef value="primary" description=""/>
+<valueDef value="runoff" description=""/>
+<valueDef value="special" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ResultsStatusv2" id="BD3A96FD-BEC9-73F4-4C93-77529B893445">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="certified" description=""/>
+<valueDef value="correction" description=""/>
+<valueDef value="pre-election" description=""/>
+<valueDef value="recount" description=""/>
+<valueDef value="unofficial-complete" description=""/>
+<valueDef value="unofficial-partial" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="GeoSpatialFormatv3" id="C2A860CC-4EFB-F79C-F574-B502E14BD11B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="geo-json" description=""/>
+<valueDef value="gml" description=""/>
+<valueDef value="kml" description=""/>
+<valueDef value="shp" description=""/>
+<valueDef value="wkt" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DayTypev3" id="C5213855-76C8-8485-E495-6BA86FFE135D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="all" description=""/>
+<valueDef value="friday" description=""/>
+<valueDef value="monday" description=""/>
+<valueDef value="saturday" description=""/>
+<valueDef value="sunday" description=""/>
+<valueDef value="thursday" description=""/>
+<valueDef value="tuesday" description=""/>
+<valueDef value="wednesday" description=""/>
+<valueDef value="weekday" description=""/>
+<valueDef value="weekend" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ResultsStatusv1" id="C60C94FD-1E95-DA15-E6A1-08CB2462CB2E">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="certified" description=""/>
+<valueDef value="correction" description=""/>
+<valueDef value="pre-election" description=""/>
+<valueDef value="recount" description=""/>
+<valueDef value="unofficial-complete" description=""/>
+<valueDef value="unofficial-partial" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ResultsStatus" id="CEE3C783-2379-8052-CE22-39BFF223C268">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="certified" description=""/>
+<valueDef value="correction" description=""/>
+<valueDef value="pre-election" description=""/>
+<valueDef value="recount" description=""/>
+<valueDef value="unofficial-complete" description=""/>
+<valueDef value="unofficial-partial" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePostElectionStatus" id="CF6503F6-10EF-3B79-4291-C68BFCE43C2B">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="advanced-to-runoff" description=""/>
+<valueDef value="defeated" description=""/>
+<valueDef value="projected-winner" description=""/>
+<valueDef value="winner" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="OfficeTermTypev1" id="D01D55FF-6040-F027-9418-6101524E2ABD">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="full-term" description=""/>
+<valueDef value="unexpired-term" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePostElectionStatusv1" id="D7728660-8D89-D0DF-83E3-6CB48916F740">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="advanced-to-runoff" description=""/>
+<valueDef value="defeated" description=""/>
+<valueDef value="projected-winner" description=""/>
+<valueDef value="winner" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ReportDetailLevelv3" id="D88469EA-B883-5A7C-8A3E-AA9F8F064B31">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="precinct-level" description=""/>
+<valueDef value="summary-contest" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IdentifierTypev3" id="DA90CD9C-9FAC-30FA-06AA-4725C5CE22F0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="fips" description=""/>
+<valueDef value="local-level" description=""/>
+<valueDef value="national-level" description=""/>
+<valueDef value="ocd-id" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="state-level" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>john</createdBy>
+<createdTime>2020-05-23 14:54:21 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CountItemStatusv3" id="E57B69BB-7A28-54EC-9C1A-977B22E628A1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="completed" description=""/>
+<valueDef value="in-process" description=""/>
+<valueDef value="not-processed" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CandidatePreElectionStatusv3" id="E6D3FC26-5387-D00F-3276-BFE3681422F1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="filed" description=""/>
+<valueDef value="qualified" description=""/>
+<valueDef value="withdrawn" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BallotMeasureType" id="E7B463F6-EE3C-FEA6-F90E-244298095D22">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="ballot-measure" description=""/>
+<valueDef value="initiative" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="recall" description=""/>
+<valueDef value="referendum" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VoteVariationv1" id="E89DDDC3-5544-51E7-9883-804ED1C84CEE">
+<createdBy>john</createdBy>
+<createdTime>2020-11-29 14:45:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="approval" description=""/>
+<valueDef value="borda" description=""/>
+<valueDef value="cumulative" description=""/>
+<valueDef value="majority" description=""/>
+<valueDef value="n-of-m" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="plurality" description=""/>
+<valueDef value="proportional" description=""/>
+<valueDef value="range" description=""/>
+<valueDef value="rcv" description=""/>
+<valueDef value="super-majority" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DeviceType" id="EDB362AA-E749-A04C-E7B5-C0095721153C">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="bmd" description=""/>
+<valueDef value="dre" description=""/>
+<valueDef value="manual-count" description=""/>
+<valueDef value="opscan-central" description=""/>
+<valueDef value="opscan-precinct" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="unknown" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="GeoSpatialFormatv2" id="F3254743-687B-3F0E-4D42-40B4CBF1BB60">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="geo-json" description=""/>
+<valueDef value="gml" description=""/>
+<valueDef value="kml" description=""/>
+<valueDef value="shp" description=""/>
+<valueDef value="wkt" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VoteVariation" id="F79A6511-3289-EDBC-DDEE-099C71128CF0">
+<createdBy>john</createdBy>
+<createdTime>2020-11-28 21:23:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="approval" description=""/>
+<valueDef value="borda" description=""/>
+<valueDef value="cumulative" description=""/>
+<valueDef value="majority" description=""/>
+<valueDef value="n-of-m" description=""/>
+<valueDef value="other" description=""/>
+<valueDef value="plurality" description=""/>
+<valueDef value="proportional" description=""/>
+<valueDef value="range" description=""/>
+<valueDef value="rcv" description=""/>
+<valueDef value="super-majority" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="OfficeTermTypev2" id="FBCA829A-9817-AFD2-B380-BA238B36D2D9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 20:55:05 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<listOfValues>
+<valueDef value="full-term" description=""/>
+<valueDef value="unexpired-term" description=""/>
+</listOfValues>
+</Domain>
+</domains>
+</DomainFile>
