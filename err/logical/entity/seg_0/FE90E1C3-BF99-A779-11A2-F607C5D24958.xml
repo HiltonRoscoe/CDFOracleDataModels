@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE90E1C3-BF99-A779-11A2-F607C5D24958" name="Office">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Description" id="73440AEB-20E5-C825-5C69-F732DBAF797A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FilingDeadline" id="370F3D27-C230-A954-F3AC-5DA64C48CD51">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsPartisan" id="4F2307A3-3397-FC31-A2F7-F0915D5C16EE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="03C18790-1B31-E351-95C6-0B5E57A0DC5C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

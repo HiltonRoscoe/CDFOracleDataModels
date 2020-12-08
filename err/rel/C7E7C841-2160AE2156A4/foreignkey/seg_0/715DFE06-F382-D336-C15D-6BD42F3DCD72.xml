@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="715DFE06-F382-D336-C15D-6BD42F3DCD72" containerWithKeyObject="AE80E94B-376B-220F-8EC9-732E04E437AA" localFKIndex="37D75646-4C44-299A-2BA5-FF51D24FF8F6" name="ContactInformation_Email_AnnotatedString_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>33205504-99FB-AD98-3ABA-DC52E296687D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>AnnotatedString</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE7D0577-9D49-DD09-3C46-8F9EE218A8A4</referredTableID>
+<keyObject>86E72BD6-49CB-E58C-9999-0A1C215E6668</keyObject>
+<referredKeyID>86E72BD6-49CB-E58C-9999-0A1C215E6668</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AnnotatedStringId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C44C493-DEBB-B55C-177A-E9A6E61C5860" name="ContactInformation">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>333453C1-A9F0-75A9-3146-4990C140944D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Directions" id="B617422F-4256-1895-9C41-5E5BEBBFC93C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>87DACEE0-0C36-3F62-E3C8-C02D8A734A7D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Label" id="C9E7BFFE-B448-2E3D-A985-617464BBBAAB">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>3D0DE000-2C1C-DBAF-E09B-1DB0415A4407</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="300202F8-6685-9CF5-8EF9-CF81A442E57A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>75860E66-0E26-910B-9464-9558AB03343D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContactInformationId" id="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_ContactInformationId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="LatLngId" id="5A5D144C-7F25-B1D1-D309-5E4AEE731278">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6491A8A-C261-5822-5165-E392BA1569C4" referredColumn="877A8AE2-E289-9EB7-875E-B485913345ED"/>
+</associations>
+</Column>
+<Column name="PersonId" id="24851971-9F0D-FC5B-5F96-39DF544991A3">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_PersonId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C6057661-1B13-A70E-9EB8-E4C1DAA1E824" referredColumn="CD394218-313A-E4BB-7FD0-F730C70CBE63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19110848-628F-D158-A275-BE6B424F3E09" name="ContactInformation_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="952D7BC3-396D-5009-6975-A27EC9D42FA8" name="ContactInformation_LatLngId_IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>879D75F6-D1D0-6F4B-25A4-6123E58FBF71</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5A5D144C-7F25-B1D1-D309-5E4AEE731278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEC0374B-45E0-E4C7-ED55-B9B1C494EE1F" name="ContactInformation_LatLng_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>879D75F6-D1D0-6F4B-25A4-6123E58FBF71</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5D144C-7F25-B1D1-D309-5E4AEE731278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0E194EA-135F-EBCD-1991-028DD0277CB7" name="ContactInformation_Person_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>E7778607-17FC-B396-F789-0C9DC1546058</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24851971-9F0D-FC5B-5F96-39DF544991A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

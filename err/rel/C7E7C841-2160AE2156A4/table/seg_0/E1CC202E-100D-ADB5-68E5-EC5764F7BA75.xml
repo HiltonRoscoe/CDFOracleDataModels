@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1CC202E-100D-ADB5-68E5-EC5764F7BA75" name="OrderedHeader">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>B6C500F7-5BCB-AEDA-67B6-BC2512E8D62E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderedHeaderId" id="2E58FAB1-1352-7813-205B-DEE3551F0960">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_OrderedHeader_OrderedHeaderId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="OrderedContentId" id="A071F88A-98ED-4F13-F32A-42313504AEBF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_OrderedHeader_OrderedContentId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C08E128B-F80D-465E-1102-6C71CBC61EB4" referredColumn="7BFB4F16-F4F1-EFBC-266E-478E8DA07312"/>
+</associations>
+</Column>
+<Column name="HeaderId" id="316A32B2-ACC1-D134-06EF-BFC684810866">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_OrderedHeader_HeaderId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="5A8280C6-9A57-3564-017C-7C1A02F5367B" referredColumn="15A31F72-360A-7B82-CCB4-F8096FB733CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75BE3F92-32C8-9543-ED5E-75ADDC020D09" name="OrderedHeader_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A071F88A-98ED-4F13-F32A-42313504AEBF"/>
+<colUsage columnID="2E58FAB1-1352-7813-205B-DEE3551F0960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ECCD26A-C956-14D9-413D-D2B3B0A3D09E" name="OrderedHeader_OrderedHeaderId_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2E58FAB1-1352-7813-205B-DEE3551F0960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55325ED2-A394-8028-B4E3-CE00DEA6194C" name="OrderedHeader_OrderedContent_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>BA6DC2F6-92E2-0114-7602-00B1B59724A7</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A071F88A-98ED-4F13-F32A-42313504AEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0501EAE8-1FBC-22BC-9FA2-5D45134B131B" name="OrderedHeader_Header_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>CFCCBCB4-2955-2DD5-6139-E758914C1428</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="316A32B2-ACC1-D134-06EF-BFC684810866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

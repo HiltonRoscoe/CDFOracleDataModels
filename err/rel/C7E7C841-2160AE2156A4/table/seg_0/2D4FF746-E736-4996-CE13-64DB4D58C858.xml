@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4FF746-E736-4996-CE13-64DB4D58C858" name="Party_PartyScopeGpUnit">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GpUnitId" id="FB6CD09B-9187-B4E7-F404-86001F3AC49F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Party_PartyScopeGpUnit_GpUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="69DEC899-D117-C0B1-4082-6705D50190DA" referredColumn="F4529728-6D42-4F75-35B0-6130AC9DC8A6"/>
+</associations>
+</Column>
+<Column name="PartyId" id="D244A331-77C6-E24A-6281-B98BB9F55C9A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Party_PartyScopeGpUnit_PartyId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D093BA0F-C6E9-AEB7-CB9E-5F206E512B71" referredColumn="E8C0E96C-5349-9155-7B0B-E83CC4C056D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84870132-7A31-A96B-8149-89CD76CDB03D" name="Party_PartyScopeGpUnit_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6CD09B-9187-B4E7-F404-86001F3AC49F"/>
+<colUsage columnID="D244A331-77C6-E24A-6281-B98BB9F55C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C22476CD-BD3E-E54B-FBE2-979BF5289EAF" name="Party_PartyScopeGpUnit_GpUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>51F2AE6C-28A9-58BF-5261-5DDF8687AF3C</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6CD09B-9187-B4E7-F404-86001F3AC49F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5455D664-2A7E-8E59-C5DA-334D4825D6C4" name="Party_PartyScopeGpUnit_Party_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>51F2AE6C-28A9-58BF-5261-5DDF8687AF3C</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D244A331-77C6-E24A-6281-B98BB9F55C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

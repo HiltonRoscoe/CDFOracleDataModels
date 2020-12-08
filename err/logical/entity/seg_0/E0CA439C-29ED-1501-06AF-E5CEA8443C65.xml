@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0CA439C-29ED-1501-06AF-E5CEA8443C65" name="ElectionReport">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Format" id="480361A9-90DB-99D8-1A87-9B7E78FFAC53">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>1BD9D134-1EC3-0DF7-100A-178B57BE8088</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GeneratedDate" id="6FC44A4F-E376-1400-ABEE-15DFDBCFFE82">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsTest" id="2C36DD0D-1541-172A-6FB7-FF6D997BBAB0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Issuer" id="2B60BD22-C774-4792-99BD-F27C68238DA9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuerAbbreviation" id="9FCE6907-F0C0-510D-C690-3C7E3E9E37A0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Notes" id="DFC860D7-6597-C651-6B4A-825D7D7679C8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SequenceEnd" id="3029061D-3FD8-AEC8-8A42-EDCF154B2D06">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SequenceStart" id="A7F042F2-0D77-419E-A7E8-685DC562479A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="8009A50A-6960-3995-0497-00962F9E3D51">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>CEE3C783-2379-8052-CE22-39BFF223C268</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TestType" id="803DD39E-1B47-A5D5-09B0-FE1D2CF39B3D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorApplicationId" id="B94FCAEF-435C-9D5D-4A11-843317943DAC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBA6C231-A39F-C9A4-99CD-A66878DB681E" name="ReportingUnit">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7C9A74B3-D7E5-1250-E40F-22D1897D28E9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IsDistricted" id="74BDDFE0-CAFE-5696-6A08-3561AD7D8EC8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsMailOnly" id="5AF7C95B-220F-B781-78FF-217C6B02E8C3">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="6949B8A7-F18A-3FEE-8FD3-F235070BCA26">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OtherType" id="CFF6B638-50FC-2684-12E9-BCBC8C53EBA4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SubUnitsReported" id="F616A191-FF03-1D01-40F1-9DB60E64F29A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalSubUnits" id="5D9BCFB2-DF32-D458-2A3D-CEFDB751DA76">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="69A163C1-555D-C081-89A4-A45DC90A4038">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2B1D4224-4997-BFD9-FCD1-15920899B1F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VotersParticipated" id="2E54B7F7-DB3F-AF99-88A4-301F7BA4DAA0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VotersRegistered" id="DD1E1AFF-D7D2-DC0B-3B0D-6D4D52916A47">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

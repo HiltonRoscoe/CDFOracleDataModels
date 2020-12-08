@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA3DC201-FBB0-FC82-7FCB-B6FD4C371D5E" containerWithKeyObject="1B8CA4D2-2BE2-F87A-58BE-555020DCCA51" localFKIndex="B44BE3A7-3D38-FA88-F830-B49776A395A2" name="CANDIDATE_SELECTION_CONTEST_SELECTION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>707F136E-7B8F-3C2A-8F79-3A0433AB8C8D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>CONTEST_SELECTION</referredTableLongName>
+<arc>C99A6360-91EE-3F2E-61BB-C4DCB63459F8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>906538AE-818A-9478-8DD0-07C188C9AC4F</referredTableID>
+<keyObject>E499E39E-0440-B09F-094B-5AF62A6C0D03</keyObject>
+<referredKeyID>E499E39E-0440-B09F-094B-5AF62A6C0D03</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CONTEST_SELECTION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

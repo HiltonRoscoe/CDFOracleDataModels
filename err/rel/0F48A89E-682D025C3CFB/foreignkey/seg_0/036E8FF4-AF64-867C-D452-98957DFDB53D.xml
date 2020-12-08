@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="036E8FF4-AF64-867C-D452-98957DFDB53D" containerWithKeyObject="2B3498E9-48F3-ECFB-F901-011BBC5FD62B" localFKIndex="EB6EA5BB-0CC6-70A9-56B4-A6B8918B12DD" name="BALLOT_STYLE__PARTY_BALLOT_STYLE_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>86863342-1269-3F8B-D3B6-3D2015B64A1F</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>BALLOT_STYLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27AAD98F-782F-620B-3725-77800E47DEE1</referredTableID>
+<keyObject>09AFF60A-56A8-687D-E802-5E4ED2F27544</keyObject>
+<referredKeyID>09AFF60A-56A8-687D-E802-5E4ED2F27544</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BALLOT_STYLE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

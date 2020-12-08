@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6491A8A-C261-5822-5165-E392BA1569C4" containerWithKeyObject="8C44C493-DEBB-B55C-177A-E9A6E61C5860" localFKIndex="AEC0374B-45E0-E4C7-ED55-B9B1C494EE1F" name="ContactInformation_LatLng_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>879D75F6-D1D0-6F4B-25A4-6123E58FBF71</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>LatLng</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08170100-3578-4FFC-EFE3-3DC7609CA203</referredTableID>
+<keyObject>3FACB915-2925-DD9B-9B51-BE7D577CABA6</keyObject>
+<referredKeyID>3FACB915-2925-DD9B-9B51-BE7D577CABA6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LatLngId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

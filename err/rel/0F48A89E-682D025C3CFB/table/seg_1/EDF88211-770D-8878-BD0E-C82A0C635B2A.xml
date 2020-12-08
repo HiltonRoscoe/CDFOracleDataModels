@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="EDF88211-770D-8878-BD0E-C82A0C635B2A" name="REPORTING_DEVICE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>7F1AAC91-2A1D-A2D5-B184-726BDA65DDEA</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GP_UNIT_ID" id="31CE0006-8A97-2F0E-DF57-E046D534BE16">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="852EC43F-0EF5-E87C-C62B-B1F1A3F87857" referredColumn="BFBAD957-25F1-352E-0729-32500DC27B2D"/>
+</associations>
+</Column>
+<Column name="SERIAL_NUMBER" id="C8F9043A-2C16-3E0A-A9A3-063D72ED6CF5">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>3DCA17EA-2B1C-E5D9-2C50-12443F96759F</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTING_DEVICE_ID" id="2EFBA44B-B622-203D-6F1D-1FF456851D2C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8EAE698-922B-0F24-A0FE-5819535605A0" name="REPORTING_DEVICE_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="31CE0006-8A97-2F0E-DF57-E046D534BE16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B2CA3D-08F9-E7BC-E195-CC738DE9E529" name="REPORTING_DEVICE_REPORTING_DEVICE_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2EFBA44B-B622-203D-6F1D-1FF456851D2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CC3B923-105C-DC58-52A8-3241ED903E2C" name="REPORTING_DEVICE_GP_UNIT_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>57D19B86-DFA6-0CD7-924A-CDF4F09DB564</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CE0006-8A97-2F0E-DF57-E046D534BE16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

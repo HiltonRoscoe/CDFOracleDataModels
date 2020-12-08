@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrderedContest_Contest" directorySegmentName="seg_0" id="024BBB05-E2D3-B813-9520-CB479A96D0AE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>5D8E8569-2F6F-FB51-ACBC-406F018D5FFE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D8E8569-2F6F-FB51-ACBC-406F018D5FFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1519708C-EFBF-BF82-8D0A-176FA87FD528</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

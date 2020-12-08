@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BE3B9B5-8560-FA26-B7F6-931DD470B216" name="CANDIDATE_CONTEST">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>C64E85A4-41C2-59E7-AEC1-A0670F515C48</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTEST_ID" id="044AB9F4-2AEF-4D27-FB6E-CD3C2E0E046B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6D5B68B-9414-0965-E1F1-25EE2C3CCA06" referredColumn="CCE4F929-3E7E-E663-0794-D95400FFF19C"/>
+</associations>
+</Column>
+<Column name="NUMBER_ELECTED" id="C8C25D67-9E73-A371-84CD-DA00A89D38B1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>DDF3C4CF-E99E-E181-CE59-0CF158F22798</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBER_RUNOFF" id="FBE0AA4D-C861-192B-A1F5-D9FD1FA475D5">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>A09971CC-5F0E-7AC6-AECF-E134E79F4150</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOTES_ALLOWED" id="453618B0-16DC-3C39-A0A8-B9FA0077E9A9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>CD9F4680-D2F0-CF78-B42D-0C4AF14EDC5E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANDIDATE_CONTEST_ID" id="F7D6184E-2113-1EDC-B48E-7D27B39025B6">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7ACA7A0-1FC4-83B6-D35E-B174D1125D05" name="CANDIDATE_CONTEST_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="044AB9F4-2AEF-4D27-FB6E-CD3C2E0E046B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="507407CD-B5DF-83C5-BC5A-DC8BBA492340" name="CANDIDATE_CONTEST_CANDIDATE_CONTEST_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F7D6184E-2113-1EDC-B48E-7D27B39025B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D115F3BB-82C2-3DA6-BA7E-C638A256406A" name="CANDIDATE_CONTEST_CONTEST_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>0EA3C59C-2626-F26D-8EDE-731A6616B1ED</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044AB9F4-2AEF-4D27-FB6E-CD3C2E0E046B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

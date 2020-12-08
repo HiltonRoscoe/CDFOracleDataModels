@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="333453C1-A9F0-75A9-3146-4990C140944D" name="ContactInformation">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Directions" id="87DACEE0-0C36-3F62-E3C8-C02D8A734A7D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Label" id="3D0DE000-2C1C-DBAF-E09B-1DB0415A4407">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="75860E66-0E26-910B-9464-9558AB03343D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

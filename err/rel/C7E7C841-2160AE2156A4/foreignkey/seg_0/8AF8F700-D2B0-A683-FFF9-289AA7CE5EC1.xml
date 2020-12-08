@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AF8F700-D2B0-A683-FFF9-289AA7CE5EC1" containerWithKeyObject="0EBAE1D1-3EF5-427B-5C78-518BE90C06F8" localFKIndex="F6C7AA34-2AFD-6068-451B-E87D48A761F6" name="BallotMeasureContest_InfoUri_AnnotatedUri_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>2258A39A-E11F-5B9D-C751-A02B0A291E85</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>AnnotatedUri</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD11772F-CDD3-461E-CD64-8AFDD6A759C2</referredTableID>
+<keyObject>C5E861E9-D73E-2D81-395A-A80C15C99F2D</keyObject>
+<referredKeyID>C5E861E9-D73E-2D81-395A-A80C15C99F2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AnnotatedUriId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

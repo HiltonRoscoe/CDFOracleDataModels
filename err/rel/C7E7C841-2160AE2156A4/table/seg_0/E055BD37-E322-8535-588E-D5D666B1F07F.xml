@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E055BD37-E322-8535-588E-D5D666B1F07F" name="Office_ExternalIdentifier">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExternalIdentifierId" id="A9FB0AFC-6C9C-AE3C-C7F4-F68360B2E753">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Office_ExternalIdentifier_ExternalIdentifierId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="400FE7D6-D1D6-C716-9FED-D76FD3F053CA" referredColumn="CF07CE35-DE7C-296B-B0CF-D492A17F3592"/>
+</associations>
+</Column>
+<Column name="OfficeId" id="62FD737E-D8D3-BF09-2A0E-490CF6D50EC0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Office_ExternalIdentifier_OfficeId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="127C0B3C-8C28-31E1-03CB-47940A33B62D" referredColumn="105EF851-5E13-954E-7524-6A9FFAC18415"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B7BB784-82F0-CC23-5F80-885EC18C85A6" name="Office_ExternalIdentifier_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9FB0AFC-6C9C-AE3C-C7F4-F68360B2E753"/>
+<colUsage columnID="62FD737E-D8D3-BF09-2A0E-490CF6D50EC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7D6C6D0-F9EE-8D30-36D5-D559AB25E936" name="Office_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>1C4D597F-5F7C-172A-14D6-7E69F4E12424</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9FB0AFC-6C9C-AE3C-C7F4-F68360B2E753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE6D2049-BA9F-5139-9706-EAB096BEE1DC" name="Office_ExternalIdentifier_Office_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>1C4D597F-5F7C-172A-14D6-7E69F4E12424</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FD737E-D8D3-BF09-2A0E-490CF6D50EC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

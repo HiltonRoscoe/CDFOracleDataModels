@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="167A0C6A-7600-651E-741F-FE06E6E21978" containerWithKeyObject="F8F7DEB8-936E-4BED-8342-109BF04E066B" localFKIndex="3096D12E-E412-C92F-7112-EF5DCDECE578" name="Contest_ReportingUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>69F0FE74-2B90-E6BF-036A-527E5415FB88</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>ReportingUnit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70CA481E-8F0E-322E-0CD4-5A8A1FEC922C</referredTableID>
+<keyObject>FF2D9A68-8E3E-3186-AB86-00090DA15A18</keyObject>
+<referredKeyID>FF2D9A68-8E3E-3186-AB86-00090DA15A18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GpUnitId,ReportingUnitId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="ElectionDistrict"/>
+</propertyMap>
+</FKIndexAssociation>

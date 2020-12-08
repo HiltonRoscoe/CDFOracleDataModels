@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1EB79E8-DA94-A2D0-816E-D8833337307C" name="OFFICE_OFFICE_HOLDER_PERSON">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="C232AE7F-44B3-00AE-4DFB-FE64AAAC8266">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="744AAB68-69F0-1889-FA90-99801DE4D22A" referredColumn="A7A7443B-53DC-9687-D161-862A904C6E0F"/>
+</associations>
+</Column>
+<Column name="OFFICE_ID" id="C08D3A1A-C237-4AD8-FF17-BD046DDF6D68">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9141958-7835-2D0C-F356-522A7397B3C3" referredColumn="A5F82216-E0BA-AD88-B41B-B0F7479A7BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B189227-1D19-BDE0-E7EC-33AADE52AB17" name="OFFICE__OFFICE_HOLDER_PERSON_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C232AE7F-44B3-00AE-4DFB-FE64AAAC8266"/>
+<colUsage columnID="C08D3A1A-C237-4AD8-FF17-BD046DDF6D68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A5FAFE0-63C8-565A-2912-2E152B5070B6" name="OFFICE__OFFICE_HOLDER_PERSON_PERSON_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>39B9A1C6-D82E-BC4F-42CF-7EE5D3C5872E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C232AE7F-44B3-00AE-4DFB-FE64AAAC8266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02503BBB-133E-B941-913D-B66AF8573EE9" name="OFFICE__OFFICE_HOLDER_PERSON_OFFICE_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>39B9A1C6-D82E-BC4F-42CF-7EE5D3C5872E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C08D3A1A-C237-4AD8-FF17-BD046DDF6D68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

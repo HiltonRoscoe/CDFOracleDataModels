@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EECABB31-D437-3E7F-44D1-301FD863CF96" name="Office_OfficeHolderPerson">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PersonId" id="15B6CA90-FEB3-B34F-D647-002A088EC662">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Office_OfficeHolderPerson_PersonId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="E298BAD5-0C32-AFDA-31EF-0AE4B4483C47" referredColumn="CD394218-313A-E4BB-7FD0-F730C70CBE63"/>
+</associations>
+</Column>
+<Column name="OfficeId" id="B3105F72-06FE-017D-D639-FD88B46F6B91">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Office_OfficeHolderPerson_OfficeId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FEEE9224-3DBF-AE22-413E-9CF5DDB5645A" referredColumn="105EF851-5E13-954E-7524-6A9FFAC18415"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A990849E-ED90-243F-B691-E295CCB7A6BE" name="Office_OfficeHolderPerson_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B6CA90-FEB3-B34F-D647-002A088EC662"/>
+<colUsage columnID="B3105F72-06FE-017D-D639-FD88B46F6B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42179A34-460D-A1FE-B9DA-B7411DE2DBBE" name="Office_OfficeHolderPerson_Person_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>39B9A1C6-D82E-BC4F-42CF-7EE5D3C5872E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B6CA90-FEB3-B34F-D647-002A088EC662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4ECE93C-EED4-1AE4-E851-5DFAA052C281" name="Office_OfficeHolderPerson_Office_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>39B9A1C6-D82E-BC4F-42CF-7EE5D3C5872E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3105F72-06FE-017D-D639-FD88B46F6B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

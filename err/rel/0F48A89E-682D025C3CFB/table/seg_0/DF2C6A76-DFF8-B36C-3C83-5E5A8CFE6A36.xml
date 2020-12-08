@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF2C6A76-DFF8-B36C-3C83-5E5A8CFE6A36" name="COALITION_CONTEST">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTEST_ID" id="D44C1736-AA7F-9E66-0D8B-1B8C022F6ADB">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57CB8A18-2E5A-2975-370F-8AB46B0F5816" referredColumn="CCE4F929-3E7E-E663-0794-D95400FFF19C"/>
+</associations>
+</Column>
+<Column name="PARTY_ID" id="AE11B212-5F33-F595-1C2F-BA607EFFA8E0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3ADD423-19F5-B427-8DC6-945FF94905EE" referredColumn="8A5FC9F1-B139-7E10-C4E0-09B1B9A11597"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFC38AA9-0543-5B6A-16DB-CD49D0880A9C" name="COALITION__CONTEST_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44C1736-AA7F-9E66-0D8B-1B8C022F6ADB"/>
+<colUsage columnID="AE11B212-5F33-F595-1C2F-BA607EFFA8E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEC72813-9B2A-69D4-4272-2FE4888BC02B" name="COALITION__CONTEST_CONTEST_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>00F684A3-08CD-CA92-1EED-F420823E9212</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44C1736-AA7F-9E66-0D8B-1B8C022F6ADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81A2C565-04BB-5D7F-270F-F8D051FDCC7A" name="COALITION__CONTEST_COALITION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>00F684A3-08CD-CA92-1EED-F420823E9212</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE11B212-5F33-F595-1C2F-BA607EFFA8E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

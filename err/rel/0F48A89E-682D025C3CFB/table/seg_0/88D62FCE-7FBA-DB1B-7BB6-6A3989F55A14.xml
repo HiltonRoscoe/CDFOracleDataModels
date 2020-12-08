@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88D62FCE-7FBA-DB1B-7BB6-6A3989F55A14" name="ELECTION_COUNT_STATUS">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNT_STATUS_ID" id="51B42667-FBC6-D6C9-3881-06F6EDCF2815">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2839E62D-8141-31A1-9CAB-91DB4EE9F64D" referredColumn="F50AC873-B4C5-D703-EECC-AF659F9CFFAE"/>
+</associations>
+</Column>
+<Column name="ELECTION_ID" id="B718B7F5-5055-A056-547F-CC56898E41AF">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EB68C11-30DD-2938-C16F-A0CFCD973B04" referredColumn="442F63C0-1B92-3C09-D994-0BEB71BE9A48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDEE71FF-5513-E876-DF29-F62492D22C54" name="ELECTION__COUNT_STATUS_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B42667-FBC6-D6C9-3881-06F6EDCF2815"/>
+<colUsage columnID="B718B7F5-5055-A056-547F-CC56898E41AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F17B7A4-CE4F-CB7D-0B64-DEF99AF867D3" name="ELECTION__COUNT_STATUS_COUNT_STATUS_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>C9093A18-5703-33D8-B800-78C88959728C</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51B42667-FBC6-D6C9-3881-06F6EDCF2815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47DE2492-4163-CDCB-D6C1-5929AA9304B3" name="ELECTION__COUNT_STATUS_ELECTION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>C9093A18-5703-33D8-B800-78C88959728C</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B718B7F5-5055-A056-547F-CC56898E41AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

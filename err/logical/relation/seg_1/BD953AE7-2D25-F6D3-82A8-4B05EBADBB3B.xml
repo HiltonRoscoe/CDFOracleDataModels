@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SpatialDimension_SpatialExtent" directorySegmentName="seg_1" id="BD953AE7-2D25-F6D3-82A8-4B05EBADBB3B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>09272D0F-B369-C516-C86D-6CD77E11B6E2</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09272D0F-B369-C516-C86D-6CD77E11B6E2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>53CD822A-8836-F7E4-4C13-8F19A6A6FF6A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

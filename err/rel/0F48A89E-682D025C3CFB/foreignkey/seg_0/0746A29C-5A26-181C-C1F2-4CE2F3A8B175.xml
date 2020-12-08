@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0746A29C-5A26-181C-C1F2-4CE2F3A8B175" containerWithKeyObject="5D18AEDB-04A0-2B1C-5746-78F434446849" localFKIndex="FC7D1F87-1963-6D0C-2BD9-DC0CD12A2450" name="CONTACT_INFORMATION__PHONE_ANNOTATED_STRING_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>D22C706A-07F4-94F1-ABBF-B38AF4B78AE8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>ANNOTATED_STRING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DA7002E-FDF9-EF97-15F6-2AD77F10DD5C</referredTableID>
+<keyObject>1CF208E7-3E41-DF81-2696-BC6CB7DF3F62</keyObject>
+<referredKeyID>1CF208E7-3E41-DF81-2696-BC6CB7DF3F62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ANNOTATED_STRING_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

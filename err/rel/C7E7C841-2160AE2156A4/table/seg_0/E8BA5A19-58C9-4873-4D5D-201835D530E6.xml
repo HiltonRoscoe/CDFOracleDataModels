@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8BA5A19-58C9-4873-4D5D-201835D530E6" name="Counts_DeviceClass">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DeviceClassId" id="615A7269-7207-FFF3-62FE-E1F399A9B1D4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Counts_DeviceClass_DeviceClassId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="834FF2E4-C0E9-5C32-93D6-BF69C53CBB9D" referredColumn="C59CAB17-19AF-F04C-1360-996353305DD3"/>
+</associations>
+</Column>
+<Column name="CountsId" id="F7829F84-0118-27BE-2725-C87613AC46F7">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Counts_DeviceClass_CountsId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="5D46DC0F-11D3-38A6-9AC5-A3BFDF4CB158" referredColumn="FD880F2E-82DA-2F4F-9400-CF6134679F1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC0692BF-0027-17D5-9079-AD36A5D3A01A" name="Counts_DeviceClass_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="615A7269-7207-FFF3-62FE-E1F399A9B1D4"/>
+<colUsage columnID="F7829F84-0118-27BE-2725-C87613AC46F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E9DBF4E-6D8C-0E7C-990D-6B6C1A9BB568" name="Counts_DeviceClass_DeviceClass_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>5D5DB5AD-DCF8-0A83-676B-D0F3CCB45B9B</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="615A7269-7207-FFF3-62FE-E1F399A9B1D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9951DDC6-EF62-B482-7093-10A4F51B58EE" name="Counts_DeviceClass_Counts_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>5D5DB5AD-DCF8-0A83-676B-D0F3CCB45B9B</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7829F84-0118-27BE-2725-C87613AC46F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

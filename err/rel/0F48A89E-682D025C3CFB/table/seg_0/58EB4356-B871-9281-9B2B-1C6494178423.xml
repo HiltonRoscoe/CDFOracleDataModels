@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58EB4356-B871-9281-9B2B-1C6494178423" name="CONTACT_INFORMATION_FAX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ANNOTATED_STRING_ID" id="77676394-9869-6347-0CC8-5DC44DEEA89D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8BCFE87-0D76-7EA5-C8CF-503EB8576BEA" referredColumn="658D0EAF-5C7F-BC6A-583D-17D39B56C224"/>
+</associations>
+</Column>
+<Column name="CONTACT_INFORMATION_ID" id="D82D8BA9-67FB-5AFC-C0D6-5ACF48FDBC55">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E8BE2E8-04B6-ABDA-1775-E806355BFC8B" referredColumn="2C63DB98-2699-5172-20BD-7E5A555D70CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60BE3CB3-5031-3174-361F-AC602584A5ED" name="CONTACT_INFORMATION__FAX_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77676394-9869-6347-0CC8-5DC44DEEA89D"/>
+<colUsage columnID="D82D8BA9-67FB-5AFC-C0D6-5ACF48FDBC55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE946495-3AB8-B9D0-8334-C413D8D17275" name="CONTACT_INFORMATION__FAX_ANNOTATED_STRING_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>495E6DEC-035F-8120-0BA4-7E4DCB20C4F4</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77676394-9869-6347-0CC8-5DC44DEEA89D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6DF9F70-22A5-86DA-32A0-769D5CE2BCB7" name="CONTACT_INFORMATION__FAX_CONTACT_INFORMATION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>495E6DEC-035F-8120-0BA4-7E4DCB20C4F4</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D82D8BA9-67FB-5AFC-C0D6-5ACF48FDBC55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

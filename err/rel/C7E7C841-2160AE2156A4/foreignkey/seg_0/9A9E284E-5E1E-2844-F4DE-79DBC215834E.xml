@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A9E284E-5E1E-2844-F4DE-79DBC215834E" containerWithKeyObject="9539078E-8794-D772-544C-0076D07FAC86" localFKIndex="9DE42AEA-F8B8-62AD-1F07-7036E74F4DB4" name="BallotStyle_GpUnit_BallotStyle_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>2959D1EF-A5EF-53EF-EF19-F06357914F8D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>BallotStyle</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E9B4FE5-AF97-AC68-5267-4B1E8F45DBFB</referredTableID>
+<keyObject>A5C0B52B-EA49-5092-A91B-5B9C20C253B9</keyObject>
+<referredKeyID>A5C0B52B-EA49-5092-A91B-5B9C20C253B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BallotStyleId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

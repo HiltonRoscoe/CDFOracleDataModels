@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4905683D-411E-3C43-E8B3-B778E36EF11B" name="Contest_ExternalIdentifier">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExternalIdentifierId" id="9286BED8-4028-C5C4-14CF-E145D77B99D6">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Contest_ExternalIdentifier_ExternalIdentifierId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="528528BF-E5B3-B802-BEB1-75A9D4F93596" referredColumn="CF07CE35-DE7C-296B-B0CF-D492A17F3592"/>
+</associations>
+</Column>
+<Column name="ContestId" id="3DBA3A08-D7CA-9908-D785-80D377A5D919">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Contest_ExternalIdentifier_ContestId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F27AC3C9-A287-ED6B-F60E-6F8332D83A58" referredColumn="16A340AF-AC13-B194-485A-8694B5DF61D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2661410B-391C-2604-098C-50E51A42D066" name="Contest_ExternalIdentifier_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9286BED8-4028-C5C4-14CF-E145D77B99D6"/>
+<colUsage columnID="3DBA3A08-D7CA-9908-D785-80D377A5D919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E753C61-14DC-A8A9-5A92-33C6DFE96737" name="Contest_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>E403E5CD-2D5B-4C30-C80D-2EEEE7D1AE74</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9286BED8-4028-C5C4-14CF-E145D77B99D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D5C8179-FA6A-5094-CEDE-F5E887DBAEC5" name="Contest_ExternalIdentifier_Contest_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>E403E5CD-2D5B-4C30-C80D-2EEEE7D1AE74</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DBA3A08-D7CA-9908-D785-80D377A5D919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

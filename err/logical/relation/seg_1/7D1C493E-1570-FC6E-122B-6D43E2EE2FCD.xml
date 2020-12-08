@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReportingUnit_ElectionAdministration" directorySegmentName="seg_1" id="7D1C493E-1570-FC6E-122B-6D43E2EE2FCD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>C44E7726-A237-5107-32C5-FC73DB6446C3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C44E7726-A237-5107-32C5-FC73DB6446C3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CBA6C231-A39F-C9A4-99CD-A66878DB681E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

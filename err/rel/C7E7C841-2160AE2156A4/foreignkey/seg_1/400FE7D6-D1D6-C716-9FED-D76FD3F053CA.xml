@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="400FE7D6-D1D6-C716-9FED-D76FD3F053CA" containerWithKeyObject="E055BD37-E322-8535-588E-D5D666B1F07F" localFKIndex="F7D6C6D0-F9EE-8D30-36D5-D559AB25E936" name="Office_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>1C4D597F-5F7C-172A-14D6-7E69F4E12424</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>ExternalIdentifier</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F3EB89D-38A4-3C02-AD44-13EAB6820896</referredTableID>
+<keyObject>E4106082-9AB7-F947-4DD7-0D60DEBA4AA5</keyObject>
+<referredKeyID>E4106082-9AB7-F947-4DD7-0D60DEBA4AA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ExternalIdentifierId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

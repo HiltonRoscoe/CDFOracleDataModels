@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Oracle Relational" id="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" mainViewID="A5D16CE7-C3E6-0AAA-384E-72171CB8710F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:28:58 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

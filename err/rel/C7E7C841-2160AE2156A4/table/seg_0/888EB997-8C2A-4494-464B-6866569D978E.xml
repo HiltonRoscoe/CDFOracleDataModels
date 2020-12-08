@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="888EB997-8C2A-4494-464B-6866569D978E" name="Election">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>559ADD31-9B37-967B-79BE-84E7B7F909AE</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EndDate" id="6E441F3B-E956-7E60-45F9-C17D3691D912">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>D122C756-0961-8168-180A-D2226DEBF3BF</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_EndDate</notNullConstraintName>
+</Column>
+<Column name="Name" id="72D06902-4702-B99F-3F0B-F86F79FDFE9B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>0B73418A-FF3B-6045-A335-470B15E90A36</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_Name</notNullConstraintName>
+</Column>
+<Column name="OtherType" id="ADFA5F12-2A33-0D78-D9F5-2AEFCA0E8461">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>C63FD47F-2F6D-15FB-D29B-55B06AD42331</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StartDate" id="C3F9459E-872D-8402-1EB3-DBD5FED439C9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>46E59AA4-E289-1769-777C-50947EFDA365</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_StartDate</notNullConstraintName>
+</Column>
+<Column name="Type" id="4C55009D-10C4-50A9-7692-8801BE30EAA7">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>903F54E4-4B33-0104-9CF4-E153610A2B9E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<constraintName>CK_Election_Type</constraintName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>6DF59680-748F-91D9-8FA4-EA5C4C5CFC0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_Type</notNullConstraintName>
+</Column>
+<Column name="ElectionId" id="1FC98F34-FF45-7BAA-EF46-0D4708FF988B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ElectionId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ContactInformationId" id="C00B11E1-CD8D-C4FC-0047-DD1031325B23">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D616D18-073F-3F35-241B-C2B4BCC93097" referredColumn="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83"/>
+</associations>
+</Column>
+<Column name="ElectionScopeGpUnitId" id="F7D64E64-33D0-6DA8-9A4E-886DA6BACB0F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ElectionScopeGpUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="27EC178E-F64C-8601-E73B-2B07D8E4B32D" referredColumn="D48AED67-5D84-1112-5A1F-BFC6E1E35D5A"/>
+</associations>
+</Column>
+<Column name="ElectionScopeReportingUnitId" id="02D043EE-B1CD-CD5E-5252-2D81D0229ABE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ElectionScopeReportingUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="27EC178E-F64C-8601-E73B-2B07D8E4B32D" referredColumn="626B4097-1A7F-6D90-DB25-3C6A0B6A6C79"/>
+</associations>
+</Column>
+<Column name="ElectionReportId" id="17E2D3DA-4C6E-5AEA-7DD7-A80647CCF202">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ElectionReportId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="08207453-5821-663D-085B-2087AF0752AB" referredColumn="B4AF9BB1-0960-8E80-475B-0E2E99DBF8A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2808A5D9-0A05-7389-42DF-A1BE9FD5889F" name="Election_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1FC98F34-FF45-7BAA-EF46-0D4708FF988B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80DB513E-979C-193D-BF11-B61D2DBD5600" name="Election_ContactInformationId_IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B9B0269F-0964-7F7E-897B-AE31968718CD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C00B11E1-CD8D-C4FC-0047-DD1031325B23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="590E78D6-DD21-3B29-28E1-92A8130C9CF1" name="Election_ContactInformation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>B9B0269F-0964-7F7E-897B-AE31968718CD</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00B11E1-CD8D-C4FC-0047-DD1031325B23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FDB217B-ED37-7185-4BAA-06014BB63DED" name="Election_ReportingUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>2391D0E4-ABA9-5378-EEBF-BE6614D47878</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7D64E64-33D0-6DA8-9A4E-886DA6BACB0F"/>
+<colUsage columnID="02D043EE-B1CD-CD5E-5252-2D81D0229ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAFE6A30-F706-F067-49D9-E2039FFD74AA" name="Election_ElectionReport_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>EDBBFC41-7A4C-991B-DDC6-C734D8239B87</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E2D3DA-4C6E-5AEA-7DD7-A80647CCF202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

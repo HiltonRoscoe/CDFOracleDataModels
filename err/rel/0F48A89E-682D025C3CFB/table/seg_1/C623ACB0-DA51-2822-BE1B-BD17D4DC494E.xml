@@ -1,0 +1,290 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="C623ACB0-DA51-2822-BE1B-BD17D4DC494E" name="REPORTING_UNIT">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>CBA6C231-A39F-C9A4-99CD-A66878DB681E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IS_DISTRICTED" id="3636E1D2-E315-4B6E-9B92-FE39C776A2F8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>74BDDFE0-CAFE-5696-6A08-3561AD7D8EC8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_MAIL_ONLY" id="7D3D43B4-7A5C-74D7-91C8-D9399EEDEA0F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>5AF7C95B-220F-B781-78FF-217C6B02E8C3</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBER" id="92C5D6DE-04B0-5CCC-638F-FFE07D9C084F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>6949B8A7-F18A-3FEE-8FD3-F235070BCA26</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_TYPE" id="34B67CF5-BE37-D3EF-224D-17794B116D72">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>CFF6B638-50FC-2684-12E9-BCBC8C53EBA4</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_UNITS_REPORTED" id="AF6B5375-4C19-CF4F-3438-108B56A16A0A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>F616A191-FF03-1D01-40F1-9DB60E64F29A</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_SUB_UNITS" id="C7CEF8F9-C806-FC17-EFFD-4F58353C30F8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>5D9BCFB2-DF32-D458-2A3D-CEFDB751DA76</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="B63BA5FD-CAAD-E24B-26D4-D3BC01999134">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>69A163C1-555D-C081-89A4-A45DC90A4038</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2B1D4224-4997-BFD9-FCD1-15920899B1F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOTERS_PARTICIPATED" id="6CA99E23-03DC-5C02-1759-CB556132B061">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>2E54B7F7-DB3F-AF99-88A4-301F7BA4DAA0</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOTERS_REGISTERED" id="E1D32207-4CAD-EFD9-0960-D18C75E2D097">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>DD1E1AFF-D7D2-DC0B-3B0D-6D4D52916A47</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTING_UNIT_ID" id="029C27C2-D840-9586-DEEC-8218D32FBAEB">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="GP_UNIT_ID" id="5B3CA04F-55EB-8883-3D3D-4074CCDDD218">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9C808FB-735F-59C5-B9A0-5D4021BC10FF" referredColumn="BFBAD957-25F1-352E-0729-32500DC27B2D"/>
+</associations>
+</Column>
+<Column name="CONTACT_INFORMATION_ID" id="89BDAFD5-84F3-1B4F-8548-FCFC7CAC63F6">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A877EAC-ABE2-8082-E2E9-96CF72A16748" referredColumn="2C63DB98-2699-5172-20BD-7E5A555D70CC"/>
+</associations>
+</Column>
+<Column name="ELECTION_ADMINISTRATION_ID" id="B9A361BA-D7C8-43D7-1EB9-F44E3A741E3D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90565F87-2065-0FFD-AB2F-2569E2A4B216" referredColumn="AC9360B2-F1D8-D486-49D7-7B29755420D9"/>
+</associations>
+</Column>
+<Column name="SPATIAL_DIMENSION_ID" id="79556235-FDF5-1B5B-84D1-715EC2177E68">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AEA111B-506D-EAB7-7756-62DEE03BB103" referredColumn="5CAE929D-513D-7C1B-F9E8-A56BAEB5C776"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="301DC195-E8F2-4FD5-D51A-05FAA1C782DD" name="REPORTING_UNIT_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5B3CA04F-55EB-8883-3D3D-4074CCDDD218"/>
+<colUsage columnID="029C27C2-D840-9586-DEEC-8218D32FBAEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F53B6D55-7546-3678-EE26-9DBAC0299732" name="REPORTING_UNIT_REPORTING_UNIT_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="029C27C2-D840-9586-DEEC-8218D32FBAEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="345FA59F-462B-B425-65C2-D15776084118" name="REPORTING_UNIT__IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>10CC63BF-23FA-F8F6-C2BE-C46F26DC32C2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="89BDAFD5-84F3-1B4F-8548-FCFC7CAC63F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED869D2-8D54-4F5C-9BBE-E6BCCF31F505" name="REPORTING_UNIT__IDXv1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7D1C493E-1570-FC6E-122B-6D43E2EE2FCD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B9A361BA-D7C8-43D7-1EB9-F44E3A741E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC02966C-3AFB-AA7A-57DF-361175E71FFA" name="REPORTING_UNIT__IDXv2">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>66490ECE-149A-2AEA-B8A5-79F4483BB6BB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="79556235-FDF5-1B5B-84D1-715EC2177E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF3135F-05BB-90A5-20CE-88CBAA7BD839" name="REPORTING_UNIT_GP_UNIT_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>40A65BBA-F67F-2AC2-6C02-685B3A0C3E60</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3CA04F-55EB-8883-3D3D-4074CCDDD218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68EC6647-B2CA-EF8E-5788-56CDE508B150" name="REPORTING_UNIT_CONTACT_INFORMATION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>10CC63BF-23FA-F8F6-C2BE-C46F26DC32C2</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89BDAFD5-84F3-1B4F-8548-FCFC7CAC63F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB6AE4B-75A8-2090-BA10-A6B2E7176E0D" name="REPORTING_UNIT_ELECTION_ADMINISTRATION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>7D1C493E-1570-FC6E-122B-6D43E2EE2FCD</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A361BA-D7C8-43D7-1EB9-F44E3A741E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6C7E71E-9A17-30AB-9AB4-671C8063C40C" name="REPORTING_UNIT_SPATIAL_DIMENSION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>66490ECE-149A-2AEA-B8A5-79F4483BB6BB</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79556235-FDF5-1B5B-84D1-715EC2177E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB3BB236-1C2E-5E2F-8AAF-4CD05C1A41AE" containerWithKeyObject="F54517CF-DEEE-9016-56E3-40F55386BA8E" localFKIndex="96885087-CD7D-C8ED-B039-B37AB8C47589" name="COALITION__PARTY_COALITION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>67C71F8B-ED75-1301-7F7F-8B44582FDBB8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>COALITION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4BFE246-D20E-581C-C47B-315EEB62BA20</referredTableID>
+<keyObject>7D52A420-B4EC-45F6-02E1-CE05B313FDBB</keyObject>
+<referredKeyID>7D52A420-B4EC-45F6-02E1-CE05B313FDBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARTY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

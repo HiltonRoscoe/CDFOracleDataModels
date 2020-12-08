@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74532471-6029-F3AB-82BA-1706DB247B2A" name="BallotStyle_ExternalIdentifier">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExternalIdentifierId" id="6BC64767-E5CD-3651-29B6-26EDF9AFFCB5">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotStyle_ExternalIdentifier_ExternalIdentifierId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9B83A14E-1323-6A55-89C8-4D050747046F" referredColumn="CF07CE35-DE7C-296B-B0CF-D492A17F3592"/>
+</associations>
+</Column>
+<Column name="BallotStyleId" id="3E669CC8-A86E-941A-99B3-1848AB46FA14">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotStyle_ExternalIdentifier_BallotStyleId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="09AD9A7F-6B1C-6DA8-74B0-C28DD3BFE646" referredColumn="C2A1CBE9-B0FA-922C-59E6-7F2E5C2E7F18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FF8776F-1C4C-BEE6-1A6F-2A7B040F0E41" name="BallotStyle_ExternalIdentifier_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC64767-E5CD-3651-29B6-26EDF9AFFCB5"/>
+<colUsage columnID="3E669CC8-A86E-941A-99B3-1848AB46FA14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFE51383-0720-84E3-C062-5AB1537E17E5" name="BallotStyle_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>CD8D5579-4554-0049-FFC6-32F8545D14A2</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC64767-E5CD-3651-29B6-26EDF9AFFCB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF26175F-0602-4B14-B1D2-0D7C6892A492" name="BallotStyle_ExternalIdentifier_BallotStyle_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>CD8D5579-4554-0049-FFC6-32F8545D14A2</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E669CC8-A86E-941A-99B3-1848AB46FA14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

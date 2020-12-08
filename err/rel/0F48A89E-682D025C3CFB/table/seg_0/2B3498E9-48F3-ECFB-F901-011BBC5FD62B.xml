@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B3498E9-48F3-ECFB-F901-011BBC5FD62B" name="BALLOT_STYLE_PARTY">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTY_ID" id="4E5D1101-148C-A243-2EDB-967F9522FA76">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D46278D-C3FA-8DF2-BF04-8E9E4F662AF8" referredColumn="1AE1F01A-9E4D-B73C-F6BB-B13CDAF202B8"/>
+</associations>
+</Column>
+<Column name="BALLOT_STYLE_ID" id="A02FBDF1-DC0D-5A1A-3749-CBDB9ADCA6DC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="036E8FF4-AF64-867C-D452-98957DFDB53D" referredColumn="67FFFA37-9CCC-4E92-18FA-87BB979E18B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C367BA8-9704-3BD2-6BFE-0B1A9FAC3B31" name="BALLOT_STYLE__PARTY_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E5D1101-148C-A243-2EDB-967F9522FA76"/>
+<colUsage columnID="A02FBDF1-DC0D-5A1A-3749-CBDB9ADCA6DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B02B0ECC-7DE0-25CD-8419-32FDFE56D9BB" name="BALLOT_STYLE__PARTY_PARTY_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>86863342-1269-3F8B-D3B6-3D2015B64A1F</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E5D1101-148C-A243-2EDB-967F9522FA76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB6EA5BB-0CC6-70A9-56B4-A6B8918B12DD" name="BALLOT_STYLE__PARTY_BALLOT_STYLE_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>86863342-1269-3F8B-D3B6-3D2015B64A1F</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A02FBDF1-DC0D-5A1A-3749-CBDB9ADCA6DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

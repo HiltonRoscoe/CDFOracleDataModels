@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F08CF4F5-3F9E-EAE1-ADAC-229FFA15B891" containerWithKeyObject="E2890F32-BED5-492B-6C53-93750DBAA5F3" localFKIndex="01F8FEB3-F0E8-1A92-5DE2-64D43AB40878" name="ContactInformationAddressLine_ContactInformation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>A8C2C3BF-C5A6-420B-6E5F-3C97941B7AE1</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>ContactInformation</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C44C493-DEBB-B55C-177A-E9A6E61C5860</referredTableID>
+<keyObject>19110848-628F-D158-A275-BE6B424F3E09</keyObject>
+<referredKeyID>19110848-628F-D158-A275-BE6B424F3E09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ContactInformationId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="ContactInformation"/>
+</propertyMap>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93547B81-1748-CEB5-910C-41ABF0A8CB71" name="ElectionReport_ExternalIdentifier">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExternalIdentifierId" id="90799D07-F750-B6C5-0180-7628560AB398">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ElectionReport_ExternalIdentifier_ExternalIdentifierId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C4C48487-4436-FA2E-B347-B5720C22D024" referredColumn="CF07CE35-DE7C-296B-B0CF-D492A17F3592"/>
+</associations>
+</Column>
+<Column name="ElectionReportId" id="777B163A-5CCE-1BD3-2C05-5C1925D3CE3E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ElectionReport_ExternalIdentifier_ElectionReportId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="CDE73DFB-FDC7-D560-49A8-5ABE48123CA2" referredColumn="B4AF9BB1-0960-8E80-475B-0E2E99DBF8A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F267F3B-47C7-69E1-18DB-7E6DBFDB0C58" name="ElectionReport_ExternalIdentifier_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90799D07-F750-B6C5-0180-7628560AB398"/>
+<colUsage columnID="777B163A-5CCE-1BD3-2C05-5C1925D3CE3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="483AC5CA-C59C-88EB-784B-5684D713F837" name="ElectionReport_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>7FC56D23-A170-6E59-9F0E-1BFC68F8928D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90799D07-F750-B6C5-0180-7628560AB398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86889131-D5BA-BB8F-A93D-44A747B04F5E" name="ElectionReport_ExternalIdentifier_ElectionReport_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>7FC56D23-A170-6E59-9F0E-1BFC68F8928D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="777B163A-5CCE-1BD3-2C05-5C1925D3CE3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

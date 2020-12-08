@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805BD858-557A-336D-A6A3-787F459A0B95" name="ContactInformation_Uri">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnnotatedUriId" id="211D1FD4-776D-3D2F-4755-DA26670CE88A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Uri_AnnotatedUriId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A8D03E9B-B05F-E4E9-99C0-A295E8BFBE9B" referredColumn="F091545F-5E08-2E18-0A2E-933E04381A62"/>
+</associations>
+</Column>
+<Column name="ContactInformationId" id="618FFB44-A725-55E6-0F11-5EA49E475B83">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Uri_ContactInformationId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="61D38447-278A-5C47-89FC-2C3F744CD831" referredColumn="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72F4DD75-510A-F1F9-AE9E-C7D8B9539C9E" name="ContactInformation_Uri_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="211D1FD4-776D-3D2F-4755-DA26670CE88A"/>
+<colUsage columnID="618FFB44-A725-55E6-0F11-5EA49E475B83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B86A3062-C463-D476-83F8-D5D244A73C11" name="ContactInformation_Uri_AnnotatedUri_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>876054E6-031D-48C4-FB79-8E687BC02046</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="211D1FD4-776D-3D2F-4755-DA26670CE88A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C407FFC-16A6-1C77-BAD1-9125389AF470" name="ContactInformation_Uri_ContactInformation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>876054E6-031D-48C4-FB79-8E687BC02046</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="618FFB44-A725-55E6-0F11-5EA49E475B83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

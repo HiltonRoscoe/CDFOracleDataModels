@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E854C1C-3405-52FF-A900-D8CAE00FC0B3" name="Election_ExternalIdentifier">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExternalIdentifierId" id="D341C305-C28A-1E58-3FEF-74D00098D028">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ExternalIdentifier_ExternalIdentifierId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D13C0FBA-7750-542C-2AF7-2F4A62056C14" referredColumn="CF07CE35-DE7C-296B-B0CF-D492A17F3592"/>
+</associations>
+</Column>
+<Column name="ElectionId" id="D37AFD62-895B-051D-2389-F6B52CC83A2C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election_ExternalIdentifier_ElectionId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="41234251-01DC-0005-D0A8-939766CDAB9B" referredColumn="1FC98F34-FF45-7BAA-EF46-0D4708FF988B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F287691-D498-CC0B-C0DE-D30625B5FB42" name="Election_ExternalIdentifier_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D341C305-C28A-1E58-3FEF-74D00098D028"/>
+<colUsage columnID="D37AFD62-895B-051D-2389-F6B52CC83A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7A77A3-7B62-FF30-B69C-0F075D7CD66B" name="Election_ExternalIdentifier_ExternalIdentifier_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>A6B437AD-9FFA-45AD-6B61-D004DD763C16</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D341C305-C28A-1E58-3FEF-74D00098D028"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6DC5613-9A08-11AE-EBBA-C045FE4DE316" name="Election_ExternalIdentifier_Election_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>A6B437AD-9FFA-45AD-6B61-D004DD763C16</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37AFD62-895B-051D-2389-F6B52CC83A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

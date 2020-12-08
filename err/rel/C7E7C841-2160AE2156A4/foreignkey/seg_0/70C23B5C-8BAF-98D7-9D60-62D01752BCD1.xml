@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70C23B5C-8BAF-98D7-9D60-62D01752BCD1" containerWithKeyObject="22F8193A-BBED-46C3-DA15-26C245CD6841" localFKIndex="FF376A7B-5C6F-DD8C-928C-020FFD8C598A" name="Contest_CountStatus_CountStatus_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>CD8F8418-081F-09D3-2216-6CDFC0F1C137</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>CountStatus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7042DAC9-980C-47F7-67C9-1589D10BFD36</referredTableID>
+<keyObject>40F61EF2-8FBA-0EC5-7BAF-6E44891DD636</keyObject>
+<referredKeyID>40F61EF2-8FBA-0EC5-7BAF-6E44891DD636</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CountStatusId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

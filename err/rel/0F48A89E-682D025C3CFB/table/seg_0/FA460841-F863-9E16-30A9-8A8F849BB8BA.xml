@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA460841-F863-9E16-30A9-8A8F849BB8BA" name="ELECTION_ADMINISTRATION">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>C44E7726-A237-5107-32C5-FC73DB6446C3</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="794C80A1-4B7F-4D07-EC36-6B93FAA262F1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>F0C98A8D-B089-2E4A-CB37-501640236808</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELECTION_ADMINISTRATION_ID" id="AC9360B2-F1D8-D486-49D7-7B29755420D9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CONTACT_INFORMATION_ID" id="B85F36D1-3EB2-D153-B7C0-D8F67E9E7680">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3683CC2F-632C-D6D2-8F59-B0BA51AFF4B6" referredColumn="2C63DB98-2699-5172-20BD-7E5A555D70CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="280697F1-DF38-E567-109F-36ED6B65F419" name="ELECTION_ADMINISTRATION_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AC9360B2-F1D8-D486-49D7-7B29755420D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304DDCC8-14D4-3597-FB9F-632E1D782F9E" name="ELECTION_ADMINISTRATION__IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BE2F3080-A823-4FC3-A9A5-BAAE8ACB5397</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B85F36D1-3EB2-D153-B7C0-D8F67E9E7680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AFBDA15-E2F2-B4C6-5482-7361C29A942C" name="ELECTION_ADMINISTRATION_CONTACT_INFORMATION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>BE2F3080-A823-4FC3-A9A5-BAAE8ACB5397</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85F36D1-3EB2-D153-B7C0-D8F67E9E7680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

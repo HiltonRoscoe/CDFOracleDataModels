@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9539078E-8794-D772-544C-0076D07FAC86" name="BallotStyle_GpUnit">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GpUnitId" id="A166AC7C-6A52-7973-B4E1-FF83BACFE72E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotStyle_GpUnit_GpUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="97BF9B95-4775-D990-F66C-33FA19B1C1EB" referredColumn="F4529728-6D42-4F75-35B0-6130AC9DC8A6"/>
+</associations>
+</Column>
+<Column name="BallotStyleId" id="F4D940C6-3C4C-644F-3BBE-9E38A2201281">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotStyle_GpUnit_BallotStyleId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9A9E284E-5E1E-2844-F4DE-79DBC215834E" referredColumn="C2A1CBE9-B0FA-922C-59E6-7F2E5C2E7F18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="114002C4-39B7-F602-E638-18FE4F42D7BA" name="BallotStyle_GpUnit_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A166AC7C-6A52-7973-B4E1-FF83BACFE72E"/>
+<colUsage columnID="F4D940C6-3C4C-644F-3BBE-9E38A2201281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2383E92F-261E-7590-5A49-F7D23E953620" name="BallotStyle_GpUnit_GpUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>2959D1EF-A5EF-53EF-EF19-F06357914F8D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A166AC7C-6A52-7973-B4E1-FF83BACFE72E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DE42AEA-F8B8-62AD-1F07-7036E74F4DB4" name="BallotStyle_GpUnit_BallotStyle_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>2959D1EF-A5EF-53EF-EF19-F06357914F8D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D940C6-3C4C-644F-3BBE-9E38A2201281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

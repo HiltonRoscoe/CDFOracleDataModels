@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="940EC915-A716-C952-45F6-4C99168DE146" name="ReportingDevice">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>7F1AAC91-2A1D-A2D5-B184-726BDA65DDEA</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GpUnitId" id="86C66DE3-08D6-22EA-CD8C-27D3E50C890B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDevice_ReportingDeviceId1</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B95045BC-9AC7-D756-2EA5-64766B4D622D" referredColumn="F4529728-6D42-4F75-35B0-6130AC9DC8A6"/>
+</associations>
+</Column>
+<Column name="SerialNumber" id="D5AC5923-3A41-733D-67DC-FCB185506C49">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>3DCA17EA-2B1C-E5D9-2C50-12443F96759F</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReportingDeviceId" id="5C858A32-1947-EE07-AB16-598E80960D70">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDevice_ReportingDeviceId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97A251BB-F3F0-D6C0-8D4E-743A847D5F31" name="ReportingDevice_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="86C66DE3-08D6-22EA-CD8C-27D3E50C890B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B42DE8D0-95CA-E929-93BC-354203B3249C" name="ReportingDevice_ReportingDeviceId_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5C858A32-1947-EE07-AB16-598E80960D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A817430-48DB-04FE-4AEA-9552927CBB20" name="ReportingDevice_GpUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>57D19B86-DFA6-0CD7-924A-CDF4F09DB564</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C66DE3-08D6-22EA-CD8C-27D3E50C890B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

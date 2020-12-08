@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA9C9D9D-FB09-03DE-7EA7-3FB03F653ACC" name="CandidateSelection">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>9756FF42-28D7-4AB4-F633-791819E38DF2</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ContestSelectionId" id="D1B0E177-614D-4648-5F06-F681A4707693">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CandidateSelection_CandidateSelectionId1</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="48128977-A1C1-07FD-7553-9A4175B5BD40" referredColumn="2C70FE76-BCE8-F506-0437-61EDE3E68E5F"/>
+</associations>
+</Column>
+<Column name="IsWriteIn" id="F5E150FE-D842-7DB7-0E48-7C1691381888">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>DB7548CF-978B-D4F9-7B4B-3CA5A579FD9D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CandidateSelectionId" id="DA7526AA-0FC5-FA40-6940-A853C050995C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CandidateSelection_CandidateSelectionId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4624236-3F57-240A-F622-E7888A139699" name="CandidateSelection_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D1B0E177-614D-4648-5F06-F681A4707693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AEA11F6-F2BE-CC1F-9900-697E5CA670CF" name="CandidateSelection_CandidateSelectionId_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DA7526AA-0FC5-FA40-6940-A853C050995C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A78C45-01C5-225E-7239-806D4140F858" name="CandidateSelection_ContestSelection_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>707F136E-7B8F-3C2A-8F79-3A0433AB8C8D</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1B0E177-614D-4648-5F06-F681A4707693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

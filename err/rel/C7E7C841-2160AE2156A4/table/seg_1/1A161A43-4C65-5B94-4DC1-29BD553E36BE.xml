@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1A161A43-4C65-5B94-4DC1-29BD553E36BE" name="ReportingUnit_CountStatus">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CountStatusId" id="7AA8DC3E-896F-A98A-51AA-C365CE760DE4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingUnit_CountStatus_CountStatusId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BFF3A644-45E4-3B4F-65A9-5D4B11A0B6F2" referredColumn="A68FF01A-FE31-D0D8-6874-1A79BB0F19F2"/>
+</associations>
+</Column>
+<Column name="GpUnitId" id="004F74CF-10C2-FD2F-88C9-EEEA9F30B741">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingUnit_CountStatus_GpUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B41F9463-83F8-5981-1AC8-66B41DB24700" referredColumn="D48AED67-5D84-1112-5A1F-BFC6E1E35D5A"/>
+</associations>
+</Column>
+<Column name="ReportingUnitId" id="0CC07F3E-0304-BD51-42F8-095436295303">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingUnit_CountStatus_ReportingUnitId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B41F9463-83F8-5981-1AC8-66B41DB24700" referredColumn="626B4097-1A7F-6D90-DB25-3C6A0B6A6C79"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80F9091F-FE58-2FD5-197A-0C1F0F253713" name="ReportingUnit_CountStatus_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA8DC3E-896F-A98A-51AA-C365CE760DE4"/>
+<colUsage columnID="004F74CF-10C2-FD2F-88C9-EEEA9F30B741"/>
+<colUsage columnID="0CC07F3E-0304-BD51-42F8-095436295303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7B1AF56-EDC1-6415-ADD6-D3AD88F3FD69" name="ReportingUnit_CountStatus_CountStatus_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>4BDC72F1-F410-C9D4-DFDF-35A5C7BB7021</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA8DC3E-896F-A98A-51AA-C365CE760DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D1E9EF-A920-BA20-CC9D-6A08803FD30E" name="ReportingUnit_CountStatus_ReportingUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>4BDC72F1-F410-C9D4-DFDF-35A5C7BB7021</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="004F74CF-10C2-FD2F-88C9-EEEA9F30B741"/>
+<colUsage columnID="0CC07F3E-0304-BD51-42F8-095436295303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

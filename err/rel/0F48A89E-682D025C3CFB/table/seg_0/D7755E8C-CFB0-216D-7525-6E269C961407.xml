@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7755E8C-CFB0-216D-7525-6E269C961407" name="GP_UNIT_COMPOSING_GP_UNIT">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GP_UNIT_ID" id="D930570D-1CFA-3180-4F30-A15E1E5306CA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6051CBA-0A07-8F18-D6B9-A917084A0662" referredColumn="BFBAD957-25F1-352E-0729-32500DC27B2D"/>
+</associations>
+</Column>
+<Column name="GP_UNIT_ID1" id="3EEA7753-5683-CC2B-AC07-6182A9C6F988">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BDBEF6B-B9BB-432B-92F7-1E4308F4C3A1" referredColumn="BFBAD957-25F1-352E-0729-32500DC27B2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23A28BD6-BA02-6891-F06D-9FCBEA99E7A5" name="GP_UNIT__COMPOSING_GP_UNIT_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D930570D-1CFA-3180-4F30-A15E1E5306CA"/>
+<colUsage columnID="3EEA7753-5683-CC2B-AC07-6182A9C6F988"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0A08314-7E3E-B73B-CDE9-B5708423CEFF" name="GP_UNIT__COMPOSING_GP_UNIT_GP_UNIT_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>1550B3B1-1DA0-09B6-76C1-2DE392418C32</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D930570D-1CFA-3180-4F30-A15E1E5306CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C0E705-2235-0BE7-BDC9-78AD214DD6D7" name="GP_UNIT__COMPOSING_GP_UNIT_GP_UNIT_FKv1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>1550B3B1-1DA0-09B6-76C1-2DE392418C32</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EEA7753-5683-CC2B-AC07-6182A9C6F988"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

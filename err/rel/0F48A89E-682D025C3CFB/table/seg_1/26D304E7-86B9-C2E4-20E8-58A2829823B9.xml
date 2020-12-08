@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="26D304E7-86B9-C2E4-20E8-58A2829823B9" name="REPORTING_UNIT_COUNT_STATUS">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNT_STATUS_ID" id="E3515E66-CCCD-5CAE-45EA-9B75024866A6">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9101451-8C8A-CEF3-1548-233DDC2F6760" referredColumn="F50AC873-B4C5-D703-EECC-AF659F9CFFAE"/>
+</associations>
+</Column>
+<Column name="GP_UNIT_ID" id="E9F6DA8A-4930-40DA-1C5A-932163FC7B84">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F764216F-42BC-00B1-04F5-B2B2726C0520" referredColumn="5B3CA04F-55EB-8883-3D3D-4074CCDDD218"/>
+</associations>
+</Column>
+<Column name="REPORTING_UNIT_ID" id="F4AA8E0D-805D-739D-1338-B62DCEAA48C9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F764216F-42BC-00B1-04F5-B2B2726C0520" referredColumn="029C27C2-D840-9586-DEEC-8218D32FBAEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="650571DE-5E09-866D-D43F-5D6429A7BCFB" name="REPORTING_UNIT__COUNT_STATUS_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3515E66-CCCD-5CAE-45EA-9B75024866A6"/>
+<colUsage columnID="E9F6DA8A-4930-40DA-1C5A-932163FC7B84"/>
+<colUsage columnID="F4AA8E0D-805D-739D-1338-B62DCEAA48C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE0D295-B41A-E857-0DE3-D04880611E68" name="REPORTING_UNIT__COUNT_STATUS_COUNT_STATUS_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>4BDC72F1-F410-C9D4-DFDF-35A5C7BB7021</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3515E66-CCCD-5CAE-45EA-9B75024866A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E27090BC-AAE8-9FE5-975C-04974C2759B5" name="REPORTING_UNIT__COUNT_STATUS_REPORTING_UNIT_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>4BDC72F1-F410-C9D4-DFDF-35A5C7BB7021</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F6DA8A-4930-40DA-1C5A-932163FC7B84"/>
+<colUsage columnID="F4AA8E0D-805D-739D-1338-B62DCEAA48C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

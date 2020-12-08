@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F54517CF-DEEE-9016-56E3-40F55386BA8E" name="COALITION_PARTY">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTY_ID" id="7EE9C043-3932-F5FD-1802-F13F7D6F23C9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD4BF09-152C-4376-3B8C-EA07C369558A" referredColumn="1AE1F01A-9E4D-B73C-F6BB-B13CDAF202B8"/>
+</associations>
+</Column>
+<Column name="PARTY_ID1" id="CD188F91-7046-108A-F32B-03A2F68715D8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB3BB236-1C2E-5E2F-8AAF-4CD05C1A41AE" referredColumn="8A5FC9F1-B139-7E10-C4E0-09B1B9A11597"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE3DA00C-A5F9-659D-84F3-EBD555F05D87" name="COALITION__PARTY_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EE9C043-3932-F5FD-1802-F13F7D6F23C9"/>
+<colUsage columnID="CD188F91-7046-108A-F32B-03A2F68715D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35891B3D-12A4-AFAD-D328-AD96CC55A49B" name="COALITION__PARTY_PARTY_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>67C71F8B-ED75-1301-7F7F-8B44582FDBB8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EE9C043-3932-F5FD-1802-F13F7D6F23C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96885087-CD7D-C8ED-B039-B37AB8C47589" name="COALITION__PARTY_COALITION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>67C71F8B-ED75-1301-7F7F-8B44582FDBB8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD188F91-7046-108A-F32B-03A2F68715D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

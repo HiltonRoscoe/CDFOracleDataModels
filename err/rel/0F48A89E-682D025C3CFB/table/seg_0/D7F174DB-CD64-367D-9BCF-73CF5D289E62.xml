@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7F174DB-CD64-367D-9BCF-73CF5D289E62" name="OFFICE_GROUP_OFFICE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFICE_ID" id="4026FD54-F965-690A-7F31-F78891123B36">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD9755B2-5480-9BEF-E6AA-48C7583F42B9" referredColumn="A5F82216-E0BA-AD88-B41B-B0F7479A7BCA"/>
+</associations>
+</Column>
+<Column name="OFFICE_GROUP_ID" id="EDD89B87-D941-62D7-33BB-24D6EEB64CBD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95EFC568-FEFA-CA64-4834-6A12FE8B3AC4" referredColumn="DC12FE10-2171-E787-CB6B-45A791AFFC52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3744B6DE-BB73-E398-0E6C-21A8203A853C" name="OFFICE_GROUP__OFFICE_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4026FD54-F965-690A-7F31-F78891123B36"/>
+<colUsage columnID="EDD89B87-D941-62D7-33BB-24D6EEB64CBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F06B7E-BA35-57D5-86D3-060EFC885D4C" name="OFFICE_GROUP__OFFICE_OFFICE_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>12B2F42F-4323-C771-AEDF-E7B09396CA27</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4026FD54-F965-690A-7F31-F78891123B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BB0D90E-4993-5CF6-A1EC-067DAA553D6C" name="OFFICE_GROUP__OFFICE_OFFICE_GROUP_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>12B2F42F-4323-C771-AEDF-E7B09396CA27</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD89B87-D941-62D7-33BB-24D6EEB64CBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40E1402F-66C1-D3B0-4226-FE8EB2FC7FD6" name="CANDIDATE_CONTEST_OFFICE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFICE_ID" id="7526E03F-7120-3DBC-2C03-2711C128B0EA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64B70E71-DB60-D9D0-143E-B34B88DEF1F1" referredColumn="A5F82216-E0BA-AD88-B41B-B0F7479A7BCA"/>
+</associations>
+</Column>
+<Column name="CONTEST_ID" id="CB5DD5CC-CDE5-2EE8-67E3-58A244CFF4EE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF98154C-CF87-442A-51EC-8684FFA893A2" referredColumn="044AB9F4-2AEF-4D27-FB6E-CD3C2E0E046B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FFEDA49-8216-5866-2A74-236B29FAE606" name="CANDIDATE_CONTEST__OFFICE_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7526E03F-7120-3DBC-2C03-2711C128B0EA"/>
+<colUsage columnID="CB5DD5CC-CDE5-2EE8-67E3-58A244CFF4EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="503DA23E-789D-1406-0716-58DF8B731664" name="CANDIDATE_CONTEST__OFFICE_OFFICE_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>76CB2A62-EBB3-AE98-748B-48D109D33983</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7526E03F-7120-3DBC-2C03-2711C128B0EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C48C47CF-D73D-F3E9-F2F3-566E9B62BD3F" name="CANDIDATE_CONTEST__OFFICE_CANDIDATE_CONTEST_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>76CB2A62-EBB3-AE98-748B-48D109D33983</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB5DD5CC-CDE5-2EE8-67E3-58A244CFF4EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

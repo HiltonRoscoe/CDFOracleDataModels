@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Office_ElectionDistrict" directorySegmentName="seg_0" id="963EF55F-6681-A448-B10B-A1860521793C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:24:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<engineerTo>
+<item key="C7E7C841-E198-BB0D-B4EE-2160AE2156A4" value="true"/>
+<item key="0F48A89E-06EB-4EDF-8EC3-682D025C3CFB" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>CBA6C231-A39F-C9A4-99CD-A66878DB681E</dominantRole>
+<identifying>false</identifying>
+<nameOnTarget>ElectionDistrict</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CBA6C231-A39F-C9A4-99CD-A66878DB681E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE90E1C3-BF99-A779-11A2-F607C5D24958</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="ElectionDistrict"/>
+</propertyMap>
+</Relation>

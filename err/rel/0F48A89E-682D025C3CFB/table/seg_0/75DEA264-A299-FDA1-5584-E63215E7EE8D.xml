@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75DEA264-A299-FDA1-5584-E63215E7EE8D" name="HEADER_EXTERNAL_IDENTIFIER">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EXTERNAL_IDENTIFIER_ID" id="9CDF9083-A71F-BC4B-904B-6CF9F6E715A4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D02D90-C7E8-AC7C-F7F4-513EF3692C2D" referredColumn="B975EC3C-85F5-B702-D1E7-4C046D4287BD"/>
+</associations>
+</Column>
+<Column name="HEADER_ID" id="6A9FEF2B-20D3-8AB3-692C-CE127405CFE8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8A646B9-58AE-E437-B2FF-3B2B429BA611" referredColumn="0D422CC5-2622-F9DB-9F58-62A0C553875A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F809E562-AEFB-DE1F-DA70-5569685F65FD" name="HEADER__EXTERNAL_IDENTIFIER_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CDF9083-A71F-BC4B-904B-6CF9F6E715A4"/>
+<colUsage columnID="6A9FEF2B-20D3-8AB3-692C-CE127405CFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BD1E425-0350-1368-F2A6-A1590D6241E2" name="HEADER__EXTERNAL_IDENTIFIER_EXTERNAL_IDENTIFIER_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>D8D2A356-FA62-B35F-BF16-0F7F76067FFC</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CDF9083-A71F-BC4B-904B-6CF9F6E715A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB655A7-6773-6450-B947-45B005FF3AB9" name="HEADER__EXTERNAL_IDENTIFIER_HEADER_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>D8D2A356-FA62-B35F-BF16-0F7F76067FFC</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A9FEF2B-20D3-8AB3-692C-CE127405CFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="3744E7BF-9635-F290-2620-F720E59C64F9" containerWithKeyObject="6CD733B3-B7D0-6035-0D9D-9C370D084312" localFKIndex="AA2F6BC5-5011-3430-4896-D1D32179B883" name="SpatialDimension_SpatialExtent_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>BD953AE7-2D25-F6D3-82A8-4B05EBADBB3B</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>SpatialExtent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4BC4635-3878-D942-6C01-B873E1D31FE2</referredTableID>
+<keyObject>C01BCB02-ADAE-DFC9-BC92-B3C75E90325C</keyObject>
+<referredKeyID>C01BCB02-ADAE-DFC9-BC92-B3C75E90325C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SpatialExtentId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

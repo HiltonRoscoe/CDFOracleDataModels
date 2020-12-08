@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="834FF2E4-C0E9-5C32-93D6-BF69C53CBB9D" containerWithKeyObject="E8BA5A19-58C9-4873-4D5D-201835D530E6" localFKIndex="7E9DBF4E-6D8C-0E7C-990D-6B6C1A9BB568" name="Counts_DeviceClass_DeviceClass_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>5D5DB5AD-DCF8-0A83-676B-D0F3CCB45B9B</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>DeviceClass</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA4A3DAD-CE4B-853B-1B9B-8E41411C6EE0</referredTableID>
+<keyObject>FEC3CA78-8445-76F1-9A5D-9A6EA031DE31</keyObject>
+<referredKeyID>FEC3CA78-8445-76F1-9A5D-9A6EA031DE31</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DeviceClassId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

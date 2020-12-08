@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCE71F6A-487A-C475-ED34-135A049D3AD8" name="ContactInformation_Fax">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnnotatedStringId" id="B999C5BC-E60D-CE3C-86C6-2F26A010B59E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Fax_AnnotatedStringId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="404FA891-C2A6-20F4-D66D-85242E3E3497" referredColumn="80556468-BBF2-7D39-2595-97C6E69D00E6"/>
+</associations>
+</Column>
+<Column name="ContactInformationId" id="76012116-7135-8378-AD2A-7959B360CC42">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Fax_ContactInformationId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="ADEE73F0-4F1A-9B92-1CA6-50C9E65E1910" referredColumn="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D1A9AB5-3C3F-A5FD-204A-7AC3CCEF5ACA" name="ContactInformation_Fax_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B999C5BC-E60D-CE3C-86C6-2F26A010B59E"/>
+<colUsage columnID="76012116-7135-8378-AD2A-7959B360CC42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5698D325-F9B8-9592-A48D-9BDE9603A174" name="ContactInformation_Fax_AnnotatedString_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:31 UTC</createdTime>
+<generatorID>495E6DEC-035F-8120-0BA4-7E4DCB20C4F4</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B999C5BC-E60D-CE3C-86C6-2F26A010B59E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22F0B6BC-F187-2BB3-C1F9-CA4888955519" name="ContactInformation_Fax_ContactInformation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>495E6DEC-035F-8120-0BA4-7E4DCB20C4F4</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76012116-7135-8378-AD2A-7959B360CC42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="35AB6DD3-29C6-146E-BD9D-68AABE809EFC" containerWithKeyObject="EC644B18-09B2-EB93-ADF1-41005D39DF71" localFKIndex="2AA04903-97AD-FA44-216F-16E045A5B360" name="SPATIAL_DIMENSION__MAP_URI_ANNOTATED_URI_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>2DA25DBC-EA78-7BCD-C21C-E9C8BE640F22</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<referredTableLongName>ANNOTATED_URI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A91A7F16-97CA-4DE9-D1FD-35DB6DAF9F64</referredTableID>
+<keyObject>914E5598-A99B-7A26-F34F-8E241A516620</keyObject>
+<referredKeyID>914E5598-A99B-7A26-F34F-8E241A516620</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ANNOTATED_URI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

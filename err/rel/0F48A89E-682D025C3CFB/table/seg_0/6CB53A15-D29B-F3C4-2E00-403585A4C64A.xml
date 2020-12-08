@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CB53A15-D29B-F3C4-2E00-403585A4C64A" name="BALLOT_MEASURE_SELECTION">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>437E9FA3-FABD-7122-0097-C0337FE53814</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTEST_SELECTION_ID" id="38B65EAC-9DB3-96DF-38AA-3BFF6E84B5B5">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90CC7831-045D-C13E-E7FA-775C9DFAD44C" referredColumn="74CD70C1-801A-7B5C-7F45-BC059AA0FB30"/>
+</associations>
+</Column>
+<Column name="SELECTION" id="9F8D0782-5B07-DB48-1287-1291136A462A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>A27ED37A-6172-A24D-17DE-46A8DA98FDEC</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BALLOT_MEASURE_SELECTION_ID" id="A2472C2A-06BD-3A85-DDBC-FD99550959E9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71F46D57-C823-C068-CF2D-515BE7705AEC" name="BALLOT_MEASURE_SELECTION_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="38B65EAC-9DB3-96DF-38AA-3BFF6E84B5B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24ED686F-5B1C-5EF8-5B88-85958CA715BB" name="BALLOT_MEASURE_SELECTION_BALLOT_MEASURE_SELECTION_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A2472C2A-06BD-3A85-DDBC-FD99550959E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65433BD9-EE9E-B294-182D-7A0EE96325AC" name="BALLOT_MEASURE_SELECTION_CONTEST_SELECTION_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>5F6EB8E9-A070-37D7-E0BC-17EC0AF7644E</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B65EAC-9DB3-96DF-38AA-3BFF6E84B5B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

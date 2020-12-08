@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E11C730-D61A-4944-44B5-C80CAF827ADB" name="CONTEST_COUNT_STATUS">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNT_STATUS_ID" id="B3F9C02F-1DDD-8E66-BB8F-837C07C5860D">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5860313-40CC-ED2D-BCF6-F97D0C78C7ED" referredColumn="F50AC873-B4C5-D703-EECC-AF659F9CFFAE"/>
+</associations>
+</Column>
+<Column name="CONTEST_ID" id="7CE0BFA7-5580-96AB-678B-1B559ECCAAD7">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8ED4FAB-93C2-E4A9-0BA3-E2C9800583F2" referredColumn="CCE4F929-3E7E-E663-0794-D95400FFF19C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6836768-52B1-1387-1140-8D71B3E7316D" name="CONTEST__COUNT_STATUS_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3F9C02F-1DDD-8E66-BB8F-837C07C5860D"/>
+<colUsage columnID="7CE0BFA7-5580-96AB-678B-1B559ECCAAD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="710DA8DF-EE03-3D9A-5197-C245750D408D" name="CONTEST__COUNT_STATUS_COUNT_STATUS_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>CD8F8418-081F-09D3-2216-6CDFC0F1C137</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3F9C02F-1DDD-8E66-BB8F-837C07C5860D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="218F1FC3-E77D-750D-C7CB-9E73889CB923" name="CONTEST__COUNT_STATUS_CONTEST_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>CD8F8418-081F-09D3-2216-6CDFC0F1C137</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CE0BFA7-5580-96AB-678B-1B559ECCAAD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

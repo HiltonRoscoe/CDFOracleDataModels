@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA0CC19D-1D27-F9C9-074A-D10394566B71" name="ContactInformation_Phone">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnnotatedStringId" id="4B765D4C-C80A-F3A7-214B-CF279D96554A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Phone_AnnotatedStringId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="2F7F7CBB-28A3-2A7F-43AE-B2F74C135044" referredColumn="80556468-BBF2-7D39-2595-97C6E69D00E6"/>
+</associations>
+</Column>
+<Column name="ContactInformationId" id="090337E7-B4F0-875B-5C3B-E156C4029BEE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ContactInformation_Phone_ContactInformationId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C06279A9-BB8F-77C4-2675-25C9DA2E382C" referredColumn="25FC0DD9-1CAD-96AA-8D6A-E67B088B8A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C31D9E75-E11D-45C3-8EC0-F46E13EC58BB" name="ContactInformation_Phone_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B765D4C-C80A-F3A7-214B-CF279D96554A"/>
+<colUsage columnID="090337E7-B4F0-875B-5C3B-E156C4029BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AAD6964-B2A7-A437-46D2-3A38C264AA1C" name="ContactInformation_Phone_AnnotatedString_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>D22C706A-07F4-94F1-ABBF-B38AF4B78AE8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B765D4C-C80A-F3A7-214B-CF279D96554A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C8C09EF-0FA2-837C-0F18-6BF323EFF50E" name="ContactInformation_Phone_ContactInformation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:25:32 UTC</createdTime>
+<generatorID>D22C706A-07F4-94F1-ABBF-B38AF4B78AE8</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="090337E7-B4F0-875B-5C3B-E156C4029BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9B9EC085-3317-69C5-A44A-2C9F76D255E5" name="SPATIAL_DIMENSION">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<generatorID>53CD822A-8836-F7E4-4C13-8F19A6A6FF6A</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPATIAL_DIMENSION_ID" id="5CAE929D-513D-7C1B-F9E8-A56BAEB5C776">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="SPATIAL_EXTENT_ID" id="CDE738CA-B32D-FB4D-0232-7AA00D3DF48E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561AE3D5-2AF4-757C-4979-6203300DCE27" referredColumn="8334185A-C604-570F-2C13-C8906764FE7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C452D1A-6443-A626-7AA2-9F1DF811900C" name="SPATIAL_DIMENSION_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:32 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5CAE929D-513D-7C1B-F9E8-A56BAEB5C776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A2456F1-9E37-4F20-FF52-98121EC25088" name="SPATIAL_DIMENSION__IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BD953AE7-2D25-F6D3-82A8-4B05EBADBB3B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CDE738CA-B32D-FB4D-0232-7AA00D3DF48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0EC9580-460E-1EA8-B0F5-D46D99D437B5" name="SPATIAL_DIMENSION_SPATIAL_EXTENT_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-03 21:30:33 UTC</createdTime>
+<generatorID>BD953AE7-2D25-F6D3-82A8-4B05EBADBB3B</generatorID>
+<ownerDesignName>err</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE738CA-B32D-FB4D-0232-7AA00D3DF48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
