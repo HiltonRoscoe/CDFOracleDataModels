@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E46E6B6-DF98-529C-70CA-9F4A0964E9BF" name="Cvr_Write_In">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>693F54F7-22E2-28E6-98AE-8B112C4FB81F</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Text" id="BE74FA61-4A0D-B6DE-FF64-FC57A72FC741">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>6DFEF914-A977-AE52-EA1A-960A23C17E2C</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cvr_Write_In_ID" id="5D8DB648-CDF8-D5AB-4B07-4822F3AFC237">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Cvr_Write_In_Cvr_Write_In_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="651DEC2E-5B1A-9156-CBE0-5896C41B1C9C" name="Cvr_Write_In_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5D8DB648-CDF8-D5AB-4B07-4822F3AFC237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

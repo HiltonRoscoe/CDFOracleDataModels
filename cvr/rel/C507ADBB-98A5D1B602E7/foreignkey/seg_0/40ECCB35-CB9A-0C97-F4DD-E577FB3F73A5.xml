@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40ECCB35-CB9A-0C97-F4DD-E577FB3F73A5" containerWithKeyObject="A65D9EFA-51C0-1FE1-A394-34096D8DC48E" localFKIndex="CC44710D-DE4C-0D1C-1583-60E2D39A8F82" name="Cvr_Snapshot_Cvr_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>BE4BA9C7-FFB7-ED82-623C-3557AA09E5B4</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Cvr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>69C7A486-51FC-FEDA-FAC9-264C677A1657</referredTableID>
+<keyObject>6FD15342-7178-9194-1270-2C6E4F51AB4C</keyObject>
+<referredKeyID>6FD15342-7178-9194-1270-2C6E4F51AB4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cvr_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="CVR"/>
+</propertyMap>
+</FKIndexAssociation>

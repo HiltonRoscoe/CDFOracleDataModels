@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28397D76-654B-7369-326B-B86805184C4E" containerWithKeyObject="7FF8711F-F6EF-14A7-A428-DC61AD513866" localFKIndex="967D1242-04C0-7ABB-070B-5B8E25F7D36F" name="CVR_CastVoteRecordReport_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>DFDBB382-8329-0DAB-7115-C8BA66BC4AD9</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>CastVoteRecordReport</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D8536D6-0B32-6D70-D29D-3AA02C575A02</referredTableID>
+<keyObject>AB87FE1F-CF5D-C528-5826-D4B0FEF7F9AF</keyObject>
+<referredKeyID>AB87FE1F-CF5D-C528-5826-D4B0FEF7F9AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CastVoteRecordReportId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

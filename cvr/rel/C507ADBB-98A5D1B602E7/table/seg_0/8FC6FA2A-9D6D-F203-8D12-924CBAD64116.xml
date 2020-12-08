@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FC6FA2A-9D6D-F203-8D12-924CBAD64116" name="Hash">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>CCFF1E7E-4052-A285-352B-3DDB3D5DB85C</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Other_Type" id="426247A5-1FA6-00E2-F293-09B9E73CEF16">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>D804B62C-DAFB-DD2A-9826-E1A049A2E733</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="82CF7B1A-6589-C7FA-3ACD-14BB564EB2B7">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>ED23C7FA-88A5-38C4-AFB1-86DAF174D655</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_Hash_Type</constraintName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>62E5D33B-46C2-1C45-4189-82B54B497FDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Hash_Type</notNullConstraintName>
+</Column>
+<Column name="Value" id="F5369C09-A63A-6AF7-1A70-B4764A7D7BCA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>B944779B-29FD-0B53-A571-CB26DBC27577</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Hash_Value</notNullConstraintName>
+</Column>
+<Column name="Hash_ID" id="53BF69EF-BF3A-6298-6D69-9C1DD7A49A6F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Hash_Hash_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6BD3B92-9449-2FFD-1C36-CECE9495223E" name="Hash_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="53BF69EF-BF3A-6298-6D69-9C1DD7A49A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

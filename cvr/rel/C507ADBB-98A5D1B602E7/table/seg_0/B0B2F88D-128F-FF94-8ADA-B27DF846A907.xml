@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0B2F88D-128F-FF94-8ADA-B27DF846A907" name="Gp_Unit">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>E0197ED0-69DA-D929-CBC4-A3F29B599F0A</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="9758FBA0-2EA5-03ED-8B81-90A5AA7F237A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>3B0D7F08-A7DA-392D-074A-DF6501C7CCFD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Other_Type" id="39F58EA4-3735-5D05-5026-BE46CA81FFE4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>D9B1F536-5CA1-62C2-9309-9829017FC428</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="0D318AB4-52B0-5357-A155-E6BCFF772861">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>2677BFE4-7AF2-0DC6-EE68-CF8CD6ACD3C6</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_Gp_Unit_Type</constraintName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>0629B2F0-772F-6055-4983-69D32CA1F2B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Gp_Unit_Type</notNullConstraintName>
+</Column>
+<Column name="Gp_Unit_ID" id="4EB79701-057B-D0D8-0B8F-93F36CD1CF53">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Gp_Unit_Gp_Unit_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Cast_Vote_Record_Report_ID" id="18576E38-1E8F-3AE1-E7B3-E6CB18C80DE8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Gp_Unit__Cast_Vote_Record_Report_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C78F875B-F8F8-B349-50A5-D0CDB7979550" referredColumn="8A9E0F70-2C89-B8C8-F2A5-CB05FBEA6896"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="546D2425-1E99-F9EF-F0BE-421BC8B34B69" name="Gp_Unit_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4EB79701-057B-D0D8-0B8F-93F36CD1CF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="024A7632-B5F7-FA5C-DD9B-4ED50EB73B99" name="Gp_Unit_Cast_Vote_Record_Report_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>37E54991-AEF4-DD29-1DE0-7C656B4D5785</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18576E38-1E8F-3AE1-E7B3-E6CB18C80DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

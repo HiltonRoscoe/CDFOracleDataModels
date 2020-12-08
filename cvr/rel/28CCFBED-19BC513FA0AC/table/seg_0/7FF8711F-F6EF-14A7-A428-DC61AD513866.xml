@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FF8711F-F6EF-14A7-A428-DC61AD513866" name="CVR">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>BCDE363E-F0C5-196B-E44A-30E6B305835C</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BallotAuditId" id="31763F85-1EAB-DC52-D1D4-879918503EE8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>196C1F9A-72B9-5B16-3DBE-71DDBE13B815</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BallotPrePrintedId" id="B0328EBB-37A7-762B-A3AC-33E61079641C">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>97D63DBB-D191-5E0C-66AB-C3B0B832E56D</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BallotSheetId" id="D34E0346-4B04-3F52-34DE-30A98048F1A1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>738CB026-DD9E-3CD2-AEEC-15ACB43D6C99</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BallotStyleId" id="830F96AB-AF8A-D784-9010-635A0D6214C0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>5F888E15-C1D1-8A9E-C7BE-FF012C677480</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BatchId" id="6F3F2ACC-2B21-842C-B19A-32EAA0288AB9">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>A8BA3408-FDB1-29F7-07EC-B367DAE869A7</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BatchSequenceId" id="E1F4FE4E-D261-6B4F-2A0E-EACFF8FE49A8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>B76A3E09-A944-8451-2E8D-91F4F61A7B49</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UniqueId" id="E06BDB99-6B4C-FCC2-1676-A0F82428FDE2">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>2FDEB113-B7E3-3225-7541-0544F254F866</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVRId" id="442DC1CC-E8E5-0975-EF42-901336A92F4E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_CVRId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CastVoteRecordReportId" id="935EBB30-590E-C5F3-254D-029D8A311E04">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_CastVoteRecordReportId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="28397D76-654B-7369-326B-B86805184C4E" referredColumn="E1658CF9-02E5-4E29-74F0-A1B0035260CD"/>
+</associations>
+</Column>
+<Column name="BallotStyleUnitGpUnitId" id="5926C44D-7007-D83A-6F62-164ABC692B32">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E98C766-4515-804A-E41A-9E18B9D62AE9" referredColumn="B2173FE3-783A-43BB-8BBD-0ED62E48A9A6"/>
+</associations>
+</Column>
+<Column name="CreatingDeviceReportingDeviceId" id="273FD7C4-BAAE-B0BF-BB9A-DD7CF8F67B18">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA25DD3D-4E49-5166-4B61-1C0084A0B76D" referredColumn="FA8593F8-D90E-6AF7-7F6A-F804FAD8B997"/>
+</associations>
+</Column>
+<Column name="ElectionId" id="0BB20EB0-B819-80D5-A825-9B0E01BBB943">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_ElectionId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D8E1FA75-ED1E-A6BB-CF6F-EFA6A01B336B" referredColumn="20C046E7-DB02-8154-9766-6894CB8FF5A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0F93C9A-C9BD-29F7-508E-5EE0DB427646" name="CVR_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="442DC1CC-E8E5-0975-EF42-901336A92F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="967D1242-04C0-7ABB-070B-5B8E25F7D36F" name="CVR_CastVoteRecordReport_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>DFDBB382-8329-0DAB-7115-C8BA66BC4AD9</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935EBB30-590E-C5F3-254D-029D8A311E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0D917DE-CE88-53E3-CB2A-8A26DBD3B764" name="CVR_GpUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>89658A3E-97F4-91D8-EFD2-EA1F0C5F0ED2</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5926C44D-7007-D83A-6F62-164ABC692B32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37A82AB6-30D1-48A5-BAC0-B8B45DF0D992" name="CVR_ReportingDevice_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>C53C6011-B80C-B5A4-712D-39F3981A961A</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="273FD7C4-BAAE-B0BF-BB9A-DD7CF8F67B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBEEACBE-CD96-74AD-4445-FF952B3B83E3" name="CVR_Election_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>FA30F781-EE4E-65C5-7BD0-98C7596165FF</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BB20EB0-B819-80D5-A825-9B0E01BBB943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

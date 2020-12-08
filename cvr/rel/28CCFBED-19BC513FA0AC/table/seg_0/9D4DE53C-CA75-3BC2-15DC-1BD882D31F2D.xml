@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D4DE53C-CA75-3BC2-15DC-1BD882D31F2D" name="ReportingDeviceNotes">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>620FE5AF-E468-0038-D346-DD94F4DB4303</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Notes" id="B1199BFA-BA88-E364-9C1B-94EA9C2209EA">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>A554D25E-AF73-23DB-77D2-906357A83650</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReportingDeviceNotesId" id="316C6ED8-842E-9D79-CF6E-A21C9341EA47">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDeviceNotes_ReportingDeviceNotesId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ReportingDeviceReportingDeviceId" id="89DFA0A8-D54C-D24A-D0A9-6820D4F18275">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDeviceNotes_ReportingDeviceReportingDeviceId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A5DAED18-5A6A-4199-75B8-D5EA07713092" referredColumn="FA8593F8-D90E-6AF7-7F6A-F804FAD8B997"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="248B3D20-9AE3-24BD-1672-BBA075DD7DB0" name="ReportingDeviceNotes_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="316C6ED8-842E-9D79-CF6E-A21C9341EA47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="537567C2-EE54-52E2-4B07-8C388A82AAC6" name="ReportingDeviceNotes_ReportingDevice_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>A7F2F109-FE8D-DC0B-FC52-7ADF7A0BA972</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89DFA0A8-D54C-D24A-D0A9-6820D4F18275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

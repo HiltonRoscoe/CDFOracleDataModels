@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEE34A5E-B39B-B658-FFAC-FADB0C3B967A" name="File">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>B90678E6-0818-4B03-F8F0-AE9BD8DC74AD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FileId" id="ADAF44E5-B0B5-73C3-59AE-F694F4266609">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_File_FileId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Data" id="5320A287-A788-161A-CDA6-B9C3D70DA962">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>EE319B58-B78E-C45B-D477-67F8801B539D</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_File_Data</notNullConstraintName>
+</Column>
+<Column name="FileName" id="C11A8C4D-7235-1C80-5895-B907EBB89C05">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>32138207-F59E-EAB8-4A96-48D78A343E60</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MimeType" id="A3250921-0B20-B9B3-6396-5D93B183D9C3">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>F9C9AE99-860A-B11F-40EE-812F25171E79</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28302D17-C199-733E-E913-522DB2018358" name="File_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ADAF44E5-B0B5-73C3-59AE-F694F4266609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E98C766-4515-804A-E41A-9E18B9D62AE9" containerWithKeyObject="7FF8711F-F6EF-14A7-A428-DC61AD513866" localFKIndex="F0D917DE-CE88-53E3-CB2A-8A26DBD3B764" name="CVR_GpUnit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>89658A3E-97F4-91D8-EFD2-EA1F0C5F0ED2</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>GpUnit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22BCA0A9-1D19-6EE7-D5EA-B769DE28EEFB</referredTableID>
+<keyObject>FFBC13D2-EDDC-BE3D-B2A7-A443067E0639</keyObject>
+<referredKeyID>FFBC13D2-EDDC-BE3D-B2A7-A443067E0639</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>GpUnitId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="BallotStyleUnit"/>
+</propertyMap>
+</FKIndexAssociation>

@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="637EDD4C-2953-7E02-ADA8-81D61E64533D" name="Selection_Position">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>37A77FC0-6335-EECD-1A95-8B59380C4965</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fractional_Votes" id="1A1933E7-E509-756D-081E-D25DEEE5823E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>409A8AA8-28CD-C1C5-3803-7B74F7F4FCBC</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Has_Indication" id="A2E1FBCB-7C86-DDD1-58C5-755C66780F52">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>FD3BEBE4-ADBE-6EE5-3D61-58E0ADD587A2</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_Selection_Position_Has_Indication</constraintName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>C659ABDB-65BD-54F9-0496-B5A2381188FF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position_Has_Indication</notNullConstraintName>
+</Column>
+<Column name="Is_Allocable" id="2D3A562D-CA98-0A8F-E9A7-37571DFEC396">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>3B217800-D378-91A7-7D85-553B27CB4BCE</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_Selection_Position_Is_Allocable</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>D46C7842-ED1A-9681-B17C-91B1F58B67EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Is_Generated" id="96CF22F1-AADA-DAAC-B0F4-DF274C0D04F1">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>26FC1D16-D446-5595-2950-E08C7AA643E6</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Votes" id="329791A6-F9A6-BB6A-97E3-B99FAC883D5B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>27C2397D-C7AA-A168-8AFB-09EE7A39BDAF</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position_Number_Votes</notNullConstraintName>
+</Column>
+<Column name="Other_Status" id="0156DD1F-8060-9F69-AD31-D1ABCF012869">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>501F6E0D-3ACD-51E1-CF84-6A89DBB1F5F8</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position" id="D72C0855-D7A7-5EA5-39ED-A2C59440A256">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>FAED5292-9E53-7C9B-BA83-3FB816E1EC9B</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank" id="783328B5-C3FE-D151-AD40-B2217265211A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>78850DA0-A635-0856-4BCF-7E35C5BFBD9A</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Selection_Position_ID" id="F99482D3-9884-BE9B-5531-984E7290E232">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position_Selection_Position_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Cvr_Contest_Selection_ID" id="DC2EAE1A-2403-9C85-11E9-6120428E9FC8">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position__Cvr_Contest_Selection_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9EB0158A-06E0-6E4D-2C0E-2463EE605797" referredColumn="5F52CC29-300A-12D1-DBBE-9ECAD81554AD"/>
+</associations>
+</Column>
+<Column name="Cvr_Write_In_ID" id="C6E18428-9775-B609-BCD7-E9079C183980">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4E2799F-EE5B-AC99-A19B-FC5A48B2DB0F" referredColumn="5D8DB648-CDF8-D5AB-4B07-4822F3AFC237"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55BF848F-ECA5-C426-C70D-EDBC422AB958" name="Selection_Position_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F99482D3-9884-BE9B-5531-984E7290E232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95BCD3A1-2545-3345-BB47-8444E1A05733" name="Selection_Position__Cvr_Write_In_ID_IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>43E695FD-FB6E-089E-E6D8-BCEE7FBB0F16</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C6E18428-9775-B609-BCD7-E9079C183980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="974A98D1-9912-F2C8-3887-CA7741B4A11D" name="Selection_Position_Cvr_Contest_Selection_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>C529B3BA-DF6F-11EA-16D3-A508FB083600</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2EAE1A-2403-9C85-11E9-6120428E9FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB3BFE14-BAAC-F609-D5DC-9E1A3BDD7A01" name="Selection_Position_Cvr_Write_In_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>43E695FD-FB6E-089E-E6D8-BCEE7FBB0F16</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6E18428-9775-B609-BCD7-E9079C183980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

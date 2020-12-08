@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0720F5B-0E54-DB20-4D8E-60D4C518F471" containerWithKeyObject="ED4F4DB9-A1E7-84C8-89D6-E7CE9863BF1F" localFKIndex="CABDEE77-7B07-3452-C657-CCC1CF5040BB" name="Annotation_CVRSnapshot_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>52629112-922C-2B7C-52F3-7B410FC8EB37</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>CVRSnapshot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5CBA9A1-CFD8-E8DC-A7FB-F78795C3DE78</referredTableID>
+<keyObject>E51F44F2-C169-5870-DEFE-FC48D8D51DA7</keyObject>
+<referredKeyID>E51F44F2-C169-5870-DEFE-FC48D8D51DA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CVRSnapshotId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

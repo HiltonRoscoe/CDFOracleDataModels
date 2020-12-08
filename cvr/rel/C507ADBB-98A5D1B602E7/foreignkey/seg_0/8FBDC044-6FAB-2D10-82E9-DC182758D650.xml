@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FBDC044-6FAB-2D10-82E9-DC182758D650" containerWithKeyObject="410E41FD-EE82-F0C5-AEF6-ED7F547739C9" localFKIndex="A7311399-9A75-63BF-723B-2E1D2224C63B" name="CVR_Write_In__Write_In_Image_Cvr_Write_In_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>2D8D0E06-DF6E-6D6A-820C-410DD566CF09</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Cvr_Write_In</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0E46E6B6-DF98-529C-70CA-9F4A0964E9BF</referredTableID>
+<keyObject>651DEC2E-5B1A-9156-CBE0-5896C41B1C9C</keyObject>
+<referredKeyID>651DEC2E-5B1A-9156-CBE0-5896C41B1C9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cvr_Write_In_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

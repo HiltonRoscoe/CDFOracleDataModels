@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E8384EC-DBB7-5EB1-FDCB-1BF5E297D876" name="SelectionPosition_Code">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodeId" id="62123B4A-9711-808D-1875-B02DD8F5F0BB">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SelectionPosition_Code_CodeId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="EC9B145A-11C6-A198-DDEC-CFDFF93E7143" referredColumn="B2A16239-AEA0-9F02-35F3-FDBFD0074059"/>
+</associations>
+</Column>
+<Column name="SelectionPositionId" id="AD11F492-6832-2364-DA5B-1312A667CD5F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SelectionPosition_Code_SelectionPositionId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F37435B0-0B96-4A11-769E-2E857C84A039" referredColumn="D3B667C7-DEE1-03B8-E4A1-7B7BFA176EAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB74B695-1739-391E-94D1-8076D7A74FE7" name="SelectionPosition_Code_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62123B4A-9711-808D-1875-B02DD8F5F0BB"/>
+<colUsage columnID="AD11F492-6832-2364-DA5B-1312A667CD5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE551390-63ED-3105-0B16-74C5FD2111DE" name="SelectionPosition_Code_Code_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>A390441A-C8D6-CFAA-BEC3-4BBB2A2717CD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62123B4A-9711-808D-1875-B02DD8F5F0BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B80FBF44-671E-5F7A-980B-DF660F359565" name="SelectionPosition_Code_SelectionPosition_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>A390441A-C8D6-CFAA-BEC3-4BBB2A2717CD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD11F492-6832-2364-DA5B-1312A667CD5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

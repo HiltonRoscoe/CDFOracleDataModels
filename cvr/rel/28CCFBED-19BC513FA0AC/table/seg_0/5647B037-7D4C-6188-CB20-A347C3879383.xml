@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5647B037-7D4C-6188-CB20-A347C3879383" name="AnnotationAdjudicatorName">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>3F4F79BF-06CF-F268-41A7-995BC55C798F</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AdjudicatorName" id="4C539046-4E21-F137-0BCE-DFA34B145421">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>975524B6-D573-98E2-3EFB-EB4D0F628B3E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnnotationAdjudicatorNameId" id="E6A39537-47AE-86F8-A43A-D35EED3B2D54">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_AnnotationAdjudicatorName_AnnotationAdjudicatorNameId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="AnnotationAnnotationId" id="D3D8ED2C-6EE3-8A63-E211-4F9F57D05478">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_AnnotationAdjudicatorName_AnnotationAnnotationId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="7666E88F-1255-254A-5B42-9AD88F3052C8" referredColumn="8BA450D1-A13E-89E9-A4B7-379A0AE29584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54D05EED-09A8-1440-84A7-6FFE89B4D2E4" name="AnnotationAdjudicatorName_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E6A39537-47AE-86F8-A43A-D35EED3B2D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB9E5610-E3C5-1D37-5398-FA75EE95C638" name="AnnotationAdjudicatorName_Annotation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>ADCDD5BD-9D87-9FA1-8157-6F02EB7DC94E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3D8ED2C-6EE3-8A63-E211-4F9F57D05478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

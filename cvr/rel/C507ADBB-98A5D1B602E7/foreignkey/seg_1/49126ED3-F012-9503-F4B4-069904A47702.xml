@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="49126ED3-F012-9503-F4B4-069904A47702" containerWithKeyObject="5CAE97B9-F160-001A-B504-D24445275923" localFKIndex="82D06929-5AB9-CAA2-D7F6-82E763099416" name="Selection_Position_Status_Selection_Position_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>47E1143D-2F49-2839-9886-BCEBA25A1B38</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Selection_Position</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>637EDD4C-2953-7E02-ADA8-81D61E64533D</referredTableID>
+<keyObject>55BF848F-ECA5-C426-C70D-EDBC422AB958</keyObject>
+<referredKeyID>55BF848F-ECA5-C426-C70D-EDBC422AB958</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Selection_Position_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="SelectionPosition"/>
+</propertyMap>
+</FKIndexAssociation>

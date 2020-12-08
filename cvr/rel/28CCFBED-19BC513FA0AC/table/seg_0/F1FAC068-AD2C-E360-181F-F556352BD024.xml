@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1FAC068-AD2C-E360-181F-F556352BD024" name="ReportingDevice_Code">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodeId" id="A3519180-8FAC-3C1C-F0E5-EA0BC73693F4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDevice_Code_CodeId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B41D9E07-5959-8392-1DE9-B1A6F0B44334" referredColumn="B2A16239-AEA0-9F02-35F3-FDBFD0074059"/>
+</associations>
+</Column>
+<Column name="ReportingDeviceId" id="7983A0EF-923B-936D-E693-4718F244D283">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ReportingDevice_Code_ReportingDeviceId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="AA707E3C-9619-FB24-5CA5-75A1FBDED071" referredColumn="FA8593F8-D90E-6AF7-7F6A-F804FAD8B997"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A94AE08-CB8F-4202-99FF-990C8FE225C7" name="ReportingDevice_Code_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3519180-8FAC-3C1C-F0E5-EA0BC73693F4"/>
+<colUsage columnID="7983A0EF-923B-936D-E693-4718F244D283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F37C85-FB89-E1AB-1F72-F3FE4A19CFEC" name="ReportingDevice_Code_Code_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>AE94AF30-5D35-CF3E-8A4B-9ED09359275D</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3519180-8FAC-3C1C-F0E5-EA0BC73693F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F550355-E244-C5A0-DA50-BE44A3FDAE0A" name="ReportingDevice_Code_ReportingDevice_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>AE94AF30-5D35-CF3E-8A4B-9ED09359275D</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7983A0EF-923B-936D-E693-4718F244D283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

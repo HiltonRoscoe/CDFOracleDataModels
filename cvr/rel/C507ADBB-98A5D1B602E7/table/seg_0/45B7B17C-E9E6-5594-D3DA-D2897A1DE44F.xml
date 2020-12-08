@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45B7B17C-E9E6-5594-D3DA-D2897A1DE44F" name="Candidate_Selection_Candidate">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Candidate_ID" id="511BDF76-BF1B-1430-FFB1-8A6D8AF53453">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Candidate_Selection__Candidate__Candidate_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="8F16A0CC-2364-4069-5511-09637EDB9878" referredColumn="3448F4FB-A457-D9F0-A094-5A8016E938C5"/>
+</associations>
+</Column>
+<Column name="Contest_Selection_ID" id="5710558B-75E2-CAAB-7826-18034C2CE73F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Candidate_Selection__Candidate___Contest_Selection_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0563CECC-EE94-6A53-84E5-B71706FD71FE" referredColumn="52B3FE8C-B200-10FB-570F-D6B369299561"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76E3655D-F6AF-739D-4364-FD0128847245" name="Candidate_Selection__Candidate_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="511BDF76-BF1B-1430-FFB1-8A6D8AF53453"/>
+<colUsage columnID="5710558B-75E2-CAAB-7826-18034C2CE73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B55952BB-D151-B558-D3CD-4B8EA3A24F16" name="Candidate_Selection__Candidate_Candidate_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>4D62FDB7-003E-EB25-ABC0-C506AE4CB069</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="511BDF76-BF1B-1430-FFB1-8A6D8AF53453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAADECB7-3004-6E74-22CF-6C7A782866E6" name="Candidate_Selection__Candidate_Candidate_Selection_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>4D62FDB7-003E-EB25-ABC0-C506AE4CB069</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5710558B-75E2-CAAB-7826-18034C2CE73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

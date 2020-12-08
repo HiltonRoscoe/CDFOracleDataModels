@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33684898-D017-CDAF-5E79-DB9F97C33054" name="SelectionPositionStatus">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>567FC547-4FF9-A934-7D57-1DACBD4DC770</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Status" id="FAD4B045-C663-13A1-9E6C-BDEBD867833A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>4A9F9924-C612-C01C-3014-1674A090A4B9</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_SelectionPositionStatus_Status</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>3F0D216A-7874-1747-03C8-F21D0272BCF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SelectionPositionStatusId" id="D4C38791-8B95-A86C-39E6-8BBA2934581B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SelectionPositionStatus_SelectionPositionStatusId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="SelectionPositionSelectionPositionId" id="D240EE21-20F6-80F8-47AA-648F638D5509">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SelectionPositionStatus_SelectionPositionSelectionPositionId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="8E8CBAC4-018C-1F2A-4FD2-D58425A0A743" referredColumn="D3B667C7-DEE1-03B8-E4A1-7B7BFA176EAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09DA5920-CA1E-0389-B847-B9C2D6D7F908" name="SelectionPositionStatus_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D4C38791-8B95-A86C-39E6-8BBA2934581B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7558187-68F9-201F-10D7-ED4D64F6E01A" name="SelectionPositionStatus_SelectionPosition_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>47E1143D-2F49-2839-9886-BCEBA25A1B38</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D240EE21-20F6-80F8-47AA-648F638D5509"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

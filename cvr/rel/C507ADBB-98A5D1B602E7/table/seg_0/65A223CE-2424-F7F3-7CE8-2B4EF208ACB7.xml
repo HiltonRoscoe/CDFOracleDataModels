@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65A223CE-2424-F7F3-7CE8-2B4EF208ACB7" name="Image">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>F1F3A695-A09E-4F0D-CBEA-58D30E7C9BBD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Image_ID" id="652D9EBE-A245-B8D5-924D-0C2F6BBFCA23">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Image_Image_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="File_ID" id="D2913A57-40C6-AAC2-1F80-6E7BDEB0F3B2">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Image__File_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="609ED7E2-2F22-4DE1-71C4-92C7D96B06AE" referredColumn="09DA7711-3D24-A31C-E2F2-67FE38177BBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D3B2F1D-24EF-A42A-9E2C-45CB26BFF4D2" name="Image_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D2913A57-40C6-AAC2-1F80-6E7BDEB0F3B2"/>
+<colUsage columnID="652D9EBE-A245-B8D5-924D-0C2F6BBFCA23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="580495CE-B489-F099-A823-6CC317FABAA2" name="Image_Image_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="652D9EBE-A245-B8D5-924D-0C2F6BBFCA23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C2ED636-823D-B06A-DD9B-3CB6975BE53A" name="Image_File_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>C3B56361-DDFD-AED7-7A61-3090944A2936</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2913A57-40C6-AAC2-1F80-6E7BDEB0F3B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

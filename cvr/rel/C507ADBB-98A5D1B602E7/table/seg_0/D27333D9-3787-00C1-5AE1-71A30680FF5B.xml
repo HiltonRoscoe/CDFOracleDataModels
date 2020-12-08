@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D27333D9-3787-00C1-5AE1-71A30680FF5B" name="Party_Contest">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>4C30E1F3-4799-437B-9CEF-8FC412485F0E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contest_ID" id="5707A132-6936-4B8F-BA38-1792D1D47C44">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Party_Contest_Party_Contest_ID1</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BC25619D-8283-2828-438D-7B54DC7DD392" referredColumn="8F4E0A11-3D16-71C7-870A-30D0A4BFCE1F"/>
+</associations>
+</Column>
+<Column name="Party_Contest_ID" id="30B80415-353B-BEF2-1130-8473F6A5857B">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Party_Contest_Party_Contest_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="871F49B4-506A-0AC0-DFFF-2A2CB03AB8CD" name="Party_Contest_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5707A132-6936-4B8F-BA38-1792D1D47C44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64A96F00-A2F3-1B9C-BF83-B786E09D96DE" name="Party_Contest_Party_Contest_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="30B80415-353B-BEF2-1130-8473F6A5857B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F072422C-5FE5-AA88-E6CC-D10ED7301CE5" name="Party_Contest_Contest_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>5E62885C-0791-B1DF-2141-67B8EBA75EE7</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5707A132-6936-4B8F-BA38-1792D1D47C44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

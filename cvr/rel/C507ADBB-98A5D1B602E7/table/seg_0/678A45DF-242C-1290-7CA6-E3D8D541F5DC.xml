@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678A45DF-242C-1290-7CA6-E3D8D541F5DC" name="Retention_Contest">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>05C8C176-83AF-ED3F-5660-BA3F82D16B9D</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contest_ID" id="DB55A11A-8CDB-A13C-EB66-F9571C014A94">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Retention_Contest_Retention_Contest_ID1</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="AB3AAA55-D2EC-F9D7-7BCD-09B950E8CFFA" referredColumn="36E0785B-E1E7-4EE1-71FA-CAAD7B20C240"/>
+</associations>
+</Column>
+<Column name="Retention_Contest_ID" id="6CDA9CA7-22E1-A0A5-8FE6-3C59DF5611AE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Retention_Contest_Retention_Contest_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Candidate_ID" id="DFD84761-9D2C-2462-D7E5-C073F927FE05">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21933530-09F4-2751-446D-F44B699748AB" referredColumn="3448F4FB-A457-D9F0-A094-5A8016E938C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2041007A-C722-2B0E-3FAE-0DC703CF10C7" name="Retention_Contest_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DB55A11A-8CDB-A13C-EB66-F9571C014A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B06F90B-A255-1E47-0DD4-7C728CECD14F" name="Retention_Contest_Retention_Contest_ID_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6CDA9CA7-22E1-A0A5-8FE6-3C59DF5611AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="884F5951-730E-25C0-E4DA-22B92786B7A5" name="Retention_Contest_Ballot_Measure_Contest_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>B061EB04-A1F5-FD75-A311-8EAEAE98E5EF</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB55A11A-8CDB-A13C-EB66-F9571C014A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="496F201C-2735-DD9B-1901-7E5F1A9B78DB" name="Retention_Contest_Candidate_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>C06FED42-AF8E-2E7E-538A-CE4D705295CB</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD84761-9D2C-2462-D7E5-C073F927FE05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

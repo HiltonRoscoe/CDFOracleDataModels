@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CDEE4D9-6ED3-76AA-A0B5-697080EAFF3B" name="Selection_Position_Code">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code_ID" id="AB18A2F6-4871-7F7B-94BE-4D0F1CB1DD24">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position__Code__Code_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1DD3BA52-B5AB-CF19-935A-0EE2DF491A6F" referredColumn="05B33292-315D-3AB8-73EB-C25F3C3A3553"/>
+</associations>
+</Column>
+<Column name="Selection_Position_ID" id="DB80D6B1-C19D-0109-DEA7-A512265DB869">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Selection_Position__Code__Selection_Position_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9269A3D7-D7D3-E95D-84EB-408B51CDE430" referredColumn="F99482D3-9884-BE9B-5531-984E7290E232"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A83B420C-3EBB-010D-88A0-394F41C0B7F8" name="Selection_Position__Code_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB18A2F6-4871-7F7B-94BE-4D0F1CB1DD24"/>
+<colUsage columnID="DB80D6B1-C19D-0109-DEA7-A512265DB869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6049941E-748D-F2E7-127B-832E8D4FA6D0" name="Selection_Position__Code_Code_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>A390441A-C8D6-CFAA-BEC3-4BBB2A2717CD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB18A2F6-4871-7F7B-94BE-4D0F1CB1DD24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F657E62-4EDC-FB97-25C5-279FBCB8C6CA" name="Selection_Position__Code_Selection_Position_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>A390441A-C8D6-CFAA-BEC3-4BBB2A2717CD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB80D6B1-C19D-0109-DEA7-A512265DB869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

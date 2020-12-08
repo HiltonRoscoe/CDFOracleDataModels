@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C16AC5ED-6D39-3DFC-72EC-9F0BFBA22F54" name="Election_Code">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code_ID" id="43FA3CCE-DD7C-0FD3-27A5-88FDA08404DC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election__Code__Code_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D8EF5D32-D52E-D1D8-C3C4-E2DD3CDDEE74" referredColumn="05B33292-315D-3AB8-73EB-C25F3C3A3553"/>
+</associations>
+</Column>
+<Column name="Election_ID" id="A834E6E1-9248-D553-AB67-0C66D7E48E62">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Election__Code__Election_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="ED929117-7786-B792-1653-49D63483BC72" referredColumn="0A41566E-0084-F610-9CBF-400843F87A4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B6C7F78-BD45-7C85-03B9-C980CD66ACEE" name="Election__Code_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FA3CCE-DD7C-0FD3-27A5-88FDA08404DC"/>
+<colUsage columnID="A834E6E1-9248-D553-AB67-0C66D7E48E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EEF68B6-8E3E-6CE3-C58A-45815B1B3D1A" name="Election__Code_Code_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>5834F374-8CC8-842D-5447-6DCC7DCD324B</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FA3CCE-DD7C-0FD3-27A5-88FDA08404DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7192BCB-F8E2-EC63-6C12-9367946AF984" name="Election__Code_Election_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>5834F374-8CC8-842D-5447-6DCC7DCD324B</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A834E6E1-9248-D553-AB67-0C66D7E48E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

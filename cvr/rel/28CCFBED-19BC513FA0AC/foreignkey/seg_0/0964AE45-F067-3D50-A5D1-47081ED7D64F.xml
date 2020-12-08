@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0964AE45-F067-3D50-A5D1-47081ED7D64F" containerWithKeyObject="0202B09D-32AD-D696-851F-4BCE168D35A1" localFKIndex="F26962FB-C55A-E39E-2D31-2D251463EAD0" name="CVR_BallotImage_ImageData_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>63F13436-358A-21D0-784F-46A809158FAE</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>ImageData</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCC6AF92-A9A6-527D-C44D-0D3BBCAC583E</referredTableID>
+<keyObject>3376BC12-3830-1E0B-2119-C0A05897C97E</keyObject>
+<referredKeyID>3376BC12-3830-1E0B-2119-C0A05897C97E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ImageDataId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54F81ED8-8D49-C3E4-B433-60CEA2D66D24" name="Cvr_Snapshot_Status">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>C88071D5-2788-FCBA-7DF7-224D8D214F17</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Status" id="23AC617D-3C22-3626-6747-843AC511C961">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<generatorID>429B8E1E-5031-6D26-ED07-8E7CB00853BF</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<constraintName>CK_Cvr_Snapshot_Status_Status</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2C556B93-4211-B014-2B19-8DCCB71F119A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cvr_Snapshot_Status_ID" id="A660BBFD-5389-730B-C359-DAAA1C31BA69">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Cvr_Snapshot_Status_Cvr_Snapshot_Status_ID</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CVRSnapshot_Cvr_Snapshot_ID" id="940A5F9B-BA17-BD59-6839-E5E780C7B9FD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Cvr_Snapshot_Status_CVRSnapshot_Cvr_Snapshot_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="5BC40162-9DE1-263C-DB90-1F2CEDA6D3E0" referredColumn="66C60C6C-475E-CB9E-8E49-CDA1CEA158A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F58E95DF-67D0-6856-6EA0-E6C88C2B8645" name="Cvr_Snapshot_Status_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:12 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A660BBFD-5389-730B-C359-DAAA1C31BA69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A173BC8A-3256-302B-B859-C30009640493" name="Cvr_Snapshot_Status_Cvr_Snapshot_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>86B31693-6D43-1160-6D45-35C549162C78</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940A5F9B-BA17-BD59-6839-E5E780C7B9FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

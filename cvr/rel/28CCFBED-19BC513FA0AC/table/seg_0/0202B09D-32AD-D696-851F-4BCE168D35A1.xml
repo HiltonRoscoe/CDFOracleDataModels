@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0202B09D-32AD-D696-851F-4BCE168D35A1" name="CVR_BallotImage">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ImageDataId" id="2C2363D9-B5FD-EE23-082C-A8275B2BD2F2">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_BallotImage_ImageDataId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0964AE45-F067-3D50-A5D1-47081ED7D64F" referredColumn="A2E9A35C-E078-B2A5-8A23-23E7804E9418"/>
+</associations>
+</Column>
+<Column name="CVRId" id="8E8EBD67-2B48-470A-8A5A-A084BD53B5FD">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_BallotImage_CVRId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FC6D083F-14A8-CACD-E681-75D4DA0E811B" referredColumn="442DC1CC-E8E5-0975-EF42-901336A92F4E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0D6780A-AEF7-BE88-7BCD-8570CC0862B1" name="CVR_BallotImage_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2363D9-B5FD-EE23-082C-A8275B2BD2F2"/>
+<colUsage columnID="8E8EBD67-2B48-470A-8A5A-A084BD53B5FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F26962FB-C55A-E39E-2D31-2D251463EAD0" name="CVR_BallotImage_ImageData_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>63F13436-358A-21D0-784F-46A809158FAE</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2363D9-B5FD-EE23-082C-A8275B2BD2F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20518BEA-647F-C905-530B-A4793938D647" name="CVR_BallotImage_CVR_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>63F13436-358A-21D0-784F-46A809158FAE</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E8EBD67-2B48-470A-8A5A-A084BD53B5FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

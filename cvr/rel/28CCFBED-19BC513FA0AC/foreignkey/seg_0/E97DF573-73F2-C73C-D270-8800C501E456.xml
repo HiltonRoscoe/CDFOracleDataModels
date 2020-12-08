@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E97DF573-73F2-C73C-D270-8800C501E456" containerWithKeyObject="5E94DC4B-E02C-CB44-C42B-18C97F549443" localFKIndex="4A4C03AF-AD11-CAA8-6850-ABE594C4AA41" name="SelectionPosition_CVRWriteIn_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>43E695FD-FB6E-089E-E6D8-BCEE7FBB0F16</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>CVRWriteIn</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD12F72A-24AA-7F3E-7305-AEB78A4DA4AA</referredTableID>
+<keyObject>5EB85CF2-83DA-3A24-6D75-3A365CABA84F</keyObject>
+<referredKeyID>5EB85CF2-83DA-3A24-6D75-3A365CABA84F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CVRWriteInId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

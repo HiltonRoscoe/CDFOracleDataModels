@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67CA2FA6-D6D3-2752-9BE8-718121A6F1A7" containerWithKeyObject="A20AEED4-77B3-64B4-1F43-D9DAC33100AF" localFKIndex="6D95F984-2542-4E82-DA8B-DD454E0FBD12" name="Annotation_Adjudicator_Name_Annotation_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>ADCDD5BD-9D87-9FA1-8157-6F02EB7DC94E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Annotation</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7C2D59F-AC70-D69F-0075-2D84B122136D</referredTableID>
+<keyObject>6A3EF993-6498-E8EB-0B6C-BB6066CDA681</keyObject>
+<referredKeyID>6A3EF993-6498-E8EB-0B6C-BB6066CDA681</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Annotation_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="Annotation"/>
+</propertyMap>
+</FKIndexAssociation>

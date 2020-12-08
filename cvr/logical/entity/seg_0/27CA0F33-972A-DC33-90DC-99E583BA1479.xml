@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27CA0F33-972A-DC33-90DC-99E583BA1479" name="CVRContestSelectionStatus">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27CA0F33-972A-DC33-90DC-99E583BA1479" name="CvrContestSelectionStatus">
 <createdBy>john</createdBy>
 <createdTime>2020-12-08 12:58:55 UTC</createdTime>
 <ownerDesignName>cvr</ownerDesignName>
 <engineerTo>
+<item key="28CCFBED-0C73-8147-F2A3-19BC513FA0AC" value="true"/>
 <item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,6 +22,7 @@
 <createdTime>2020-12-08 12:58:55 UTC</createdTime>
 <ownerDesignName>cvr</ownerDesignName>
 <engineerTo>
+<item key="28CCFBED-0C73-8147-F2A3-19BC513FA0AC" value="true"/>
 <item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>

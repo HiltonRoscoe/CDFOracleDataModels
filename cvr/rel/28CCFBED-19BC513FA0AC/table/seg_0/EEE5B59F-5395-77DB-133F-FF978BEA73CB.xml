@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEE5B59F-5395-77DB-133F-FF978BEA73CB" name="BallotMeasureSelection">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>0B24D35A-B32E-D54F-2C6A-A9A5730F41FA</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ContestSelectionId" id="4B0C2F2B-F43B-DE56-092E-3E72757354AC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotMeasureSelection_BallotMeasureSelectionId1</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="E5AABD7E-AF3E-941D-D673-2CBA672A1A0A" referredColumn="6C00225A-6E6C-57D3-7FCF-20B6FDE17FD9"/>
+</associations>
+</Column>
+<Column name="Selection" id="6DB923CB-7C71-592C-B6B2-F34985E0975E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>6FE77D28-E867-8DA3-6B49-51FC53EB3EAD</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotMeasureSelection_Selection</notNullConstraintName>
+</Column>
+<Column name="BallotMeasureSelectionId" id="C983FFFB-EF3B-1C31-0A41-41C396066ABC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BallotMeasureSelection_BallotMeasureSelectionId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9A048DC-0A74-3859-4C7E-BA37CE70605A" name="BallotMeasureSelection_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4B0C2F2B-F43B-DE56-092E-3E72757354AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4240A6DF-F4A0-6934-C7F4-EB40C55DDC32" name="BallotMeasureSelection_BallotMeasureSelectionId_UN">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C983FFFB-EF3B-1C31-0A41-41C396066ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F479FA29-73F5-8B8F-EFA9-3D453971C624" name="BallotMeasureSelection_ContestSelection_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>C3B9056A-FB33-C16E-AB39-8CF30DB98B02</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0C2F2B-F43B-DE56-092E-3E72757354AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

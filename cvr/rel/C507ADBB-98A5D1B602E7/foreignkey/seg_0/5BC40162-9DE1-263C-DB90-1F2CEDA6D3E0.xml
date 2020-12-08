@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5BC40162-9DE1-263C-DB90-1F2CEDA6D3E0" containerWithKeyObject="54F81ED8-8D49-C3E4-B433-60CEA2D66D24" localFKIndex="A173BC8A-3256-302B-B859-C30009640493" name="Cvr_Snapshot_Status_Cvr_Snapshot_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>86B31693-6D43-1160-6D45-35C549162C78</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Cvr_Snapshot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A65D9EFA-51C0-1FE1-A394-34096D8DC48E</referredTableID>
+<keyObject>2C003BC7-EBBA-5E6F-6A8D-035FEAF5FBAC</keyObject>
+<referredKeyID>2C003BC7-EBBA-5E6F-6A8D-035FEAF5FBAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cvr_Snapshot_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<propertyMap>
+<property name="fkRole" value="CVRSnapshot"/>
+</propertyMap>
+</FKIndexAssociation>

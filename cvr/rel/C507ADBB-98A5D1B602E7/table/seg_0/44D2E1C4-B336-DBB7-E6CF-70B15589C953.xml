@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44D2E1C4-B336-DBB7-E6CF-70B15589C953" name="Gp_Unit_Reporting_Device">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reporting_Device_ID" id="EC5945BD-41E6-18D5-0685-0B1A9E0ED689">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Gp_Unit__Reporting_Device__Reporting_Device_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="14858DBC-6D4F-7528-5CA5-B965021EB9E1" referredColumn="6F223889-A33F-1ECA-501B-EB0CE91AD21C"/>
+</associations>
+</Column>
+<Column name="Gp_Unit_ID" id="1B2AD65D-CEEC-F5FF-976F-D956C164E196">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Gp_Unit__Reporting_Device__Gp_Unit_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="CA3E04C2-9712-B9B5-F5BF-C17F8ED43543" referredColumn="4EB79701-057B-D0D8-0B8F-93F36CD1CF53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1238941-CDA3-5A87-4B19-B44D2A2617C0" name="Gp_Unit__Reporting_Device_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5945BD-41E6-18D5-0685-0B1A9E0ED689"/>
+<colUsage columnID="1B2AD65D-CEEC-F5FF-976F-D956C164E196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0C9A55E-D7C5-C0B5-6345-7D52DA58687C" name="Gp_Unit__Reporting_Device_Reporting_Device_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>18927D83-6294-3F74-3CCD-EE9EFC4E2D9E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5945BD-41E6-18D5-0685-0B1A9E0ED689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="322BB049-D19A-A432-121B-1A9DA2E18D0E" name="Gp_Unit__Reporting_Device_Gp_Unit_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>18927D83-6294-3F74-3CCD-EE9EFC4E2D9E</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B2AD65D-CEEC-F5FF-976F-D956C164E196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="410E41FD-EE82-F0C5-AEF6-ED7F547739C9" name="CVR_Write_In_Write_In_Image">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<ordsAlias>c_v_r_write_in__write_in_image</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Image_Data_ID" id="DD9B0437-AA7B-E0D9-1C1F-10E36B31E72F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_Write_In__Write_In_Image__Image_Data_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BDBC8D4B-350E-5110-95AC-DC495D705457" referredColumn="3D2D5A70-787A-A5B1-29D5-576878895E68"/>
+</associations>
+</Column>
+<Column name="Cvr_Write_In_ID" id="8561416F-900A-AB28-DC7F-870EE83AA4AB">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CVR_Write_In__Write_In_Image__Cvr_Write_In_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="8FBDC044-6FAB-2D10-82E9-DC182758D650" referredColumn="5D8DB648-CDF8-D5AB-4B07-4822F3AFC237"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9142CEC-BB58-1D43-E3FF-1037EBDC9C90" name="CVR_Write_In__Write_In_Image_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD9B0437-AA7B-E0D9-1C1F-10E36B31E72F"/>
+<colUsage columnID="8561416F-900A-AB28-DC7F-870EE83AA4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99F12EAC-B511-A6CF-804E-6C60E35DCC34" name="CVR_Write_In__Write_In_Image_Image_Data_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>2D8D0E06-DF6E-6D6A-820C-410DD566CF09</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD9B0437-AA7B-E0D9-1C1F-10E36B31E72F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7311399-9A75-63BF-723B-2E1D2224C63B" name="CVR_Write_In__Write_In_Image_Cvr_Write_In_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>2D8D0E06-DF6E-6D6A-820C-410DD566CF09</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8561416F-900A-AB28-DC7F-870EE83AA4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

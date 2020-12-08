@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C762BE1-B835-3F43-E30E-E5A4FF980BC1" name="Cast_Vote_Record_Report_Report_Generating_Device">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reporting_Device_ID" id="94FBB972-88CF-9579-241F-CE0FDEB1193A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Cast_Vote_Record_Report__Report_Generating_Device__Reporting_Device_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A2D17449-2949-4262-BC8C-8E4C74D63F25" referredColumn="6F223889-A33F-1ECA-501B-EB0CE91AD21C"/>
+</associations>
+</Column>
+<Column name="Cast_Vote_Record_Report_ID" id="A98FD1EA-9461-DA26-5C8F-F3B911DC6CBE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Cast_Vote_Record_Report__Report_Generating_Device__Cast_Vote_Record_Report_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1DE91EDF-2CFE-CF09-B588-79C0540FCF0E" referredColumn="8A9E0F70-2C89-B8C8-F2A5-CB05FBEA6896"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBB0781C-0635-668D-4F05-58F6F8C5B087" name="Cast_Vote_Record_Report__Report_Generating_Device_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FBB972-88CF-9579-241F-CE0FDEB1193A"/>
+<colUsage columnID="A98FD1EA-9461-DA26-5C8F-F3B911DC6CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC1ED3A2-2D94-B367-AC1F-63251131B4DC" name="Cast_Vote_Record_Report__Report_Generating_Device_Reporting_Device_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>1B700B32-002F-6C34-0027-CC56A0CAE4DB</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FBB972-88CF-9579-241F-CE0FDEB1193A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60B732E8-5721-926E-F846-46DCB229DFFB" name="Cast_Vote_Record_Report__Report_Generating_Device_Cast_Vote_Record_Report_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>1B700B32-002F-6C34-0027-CC56A0CAE4DB</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98FD1EA-9461-DA26-5C8F-F3B911DC6CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

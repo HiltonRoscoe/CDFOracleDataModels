@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21933530-09F4-2751-446D-F44B699748AB" containerWithKeyObject="678A45DF-242C-1290-7CA6-E3D8D541F5DC" localFKIndex="496F201C-2735-DD9B-1901-7E5F1A9B78DB" name="Retention_Contest_Candidate_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:46:13 UTC</createdTime>
+<generatorID>C06FED42-AF8E-2E7E-538A-CE4D705295CB</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Candidate</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>075EEFC5-D1D7-A30F-262C-6854029555D1</referredTableID>
+<keyObject>BCFB2D20-0F0F-5F7B-A0DA-3B5BF80E8E31</keyObject>
+<referredKeyID>BCFB2D20-0F0F-5F7B-A0DA-3B5BF80E8E31</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Candidate_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

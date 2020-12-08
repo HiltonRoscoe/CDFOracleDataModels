@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCC6AF92-A9A6-527D-C44D-0D3BBCAC583E" name="ImageData">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>C9D62B8A-EAD0-9EE4-31AA-53E14D2E4961</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location" id="22A6936E-54BB-597A-F336-4CE16FFEDEA6">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<generatorID>935F5674-3DEB-A71D-523C-50B157180FEE</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImageDataId" id="A2E9A35C-E078-B2A5-8A23-23E7804E9418">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ImageData_ImageDataId</notNullConstraintName>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="HashId" id="D93C808B-6F3B-C0A2-12D0-962B4C751E65">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90EE3423-F50B-73CC-33AA-ECAC6EEF2F90" referredColumn="D48AA7A8-EF9C-FCF5-565D-3E5FBE57D9F6"/>
+</associations>
+</Column>
+<Column name="FileId" id="F5A9F7D0-A396-151C-D90D-D1DBBB40D264">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D122A90-CA13-DA0B-F9DC-BBF1E815A999" referredColumn="C9C11928-6EEF-6F52-BF30-7341307CE1B6"/>
+</associations>
+</Column>
+<Column name="ImageId" id="8659D7A9-25E4-0C4B-37A9-906265073ACC">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D122A90-CA13-DA0B-F9DC-BBF1E815A999" referredColumn="7F6B0373-EA96-275D-0A02-59843F38BCE8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3376BC12-3830-1E0B-2119-C0A05897C97E" name="ImageData_PK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:20 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A2E9A35C-E078-B2A5-8A23-23E7804E9418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FEFCB09-5B98-DCAB-B725-C307C03A4ACC" name="ImageData_HashId_IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A49BAAB0-A1A2-F007-A830-3BF825459494</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D93C808B-6F3B-C0A2-12D0-962B4C751E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B0F3C90-FF40-42B6-1AA3-EF10C8C000E6" name="ImageData_FileId_ImageId_IDX">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5A48B252-3F71-F166-B2FF-EA4B8D43F87B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F5A9F7D0-A396-151C-D90D-D1DBBB40D264"/>
+<colUsage columnID="8659D7A9-25E4-0C4B-37A9-906265073ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEF28816-14BD-4E2D-B6D4-756147B9393C" name="ImageData_Hash_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>A49BAAB0-A1A2-F007-A830-3BF825459494</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93C808B-6F3B-C0A2-12D0-962B4C751E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F45C6BB3-5B0C-A6E4-885B-50BBB54232B2" name="ImageData_Image_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>5A48B252-3F71-F166-B2FF-EA4B8D43F87B</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A9F7D0-A396-151C-D90D-D1DBBB40D264"/>
+<colUsage columnID="8659D7A9-25E4-0C4B-37A9-906265073ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

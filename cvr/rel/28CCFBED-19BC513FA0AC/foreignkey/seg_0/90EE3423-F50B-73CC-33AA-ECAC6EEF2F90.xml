@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90EE3423-F50B-73CC-33AA-ECAC6EEF2F90" containerWithKeyObject="CCC6AF92-A9A6-527D-C44D-0D3BBCAC583E" localFKIndex="FEF28816-14BD-4E2D-B6D4-756147B9393C" name="ImageData_Hash_FK">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 13:07:21 UTC</createdTime>
+<generatorID>A49BAAB0-A1A2-F007-A830-3BF825459494</generatorID>
+<ownerDesignName>cvr</ownerDesignName>
+<referredTableLongName>Hash</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22799CE9-2771-8CAD-1F10-3F4898D3851F</referredTableID>
+<keyObject>AA819D5C-C297-6D8B-D94C-91F0605B385C</keyObject>
+<referredKeyID>AA819D5C-C297-6D8B-D94C-91F0605B385C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>HashId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
