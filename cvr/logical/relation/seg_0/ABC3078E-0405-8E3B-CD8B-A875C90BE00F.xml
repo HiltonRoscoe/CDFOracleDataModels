@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CVRSnapshot_CVRContest" directorySegmentName="seg_0" id="ABC3078E-0405-8E3B-CD8B-A875C90BE00F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1923FD6B-8D3C-ED85-E67D-293184B4BEA5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>99A4190D-685A-E08F-14D5-963F7BA6AF1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

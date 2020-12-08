@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImageData_Hash" directorySegmentName="seg_0" id="A49BAAB0-A1A2-F007-A830-3BF825459494">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>CCFF1E7E-4052-A285-352B-3DDB3D5DB85C</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CCFF1E7E-4052-A285-352B-3DDB3D5DB85C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C9D62B8A-EAD0-9EE4-31AA-53E14D2E4961</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FA69530-4FAD-32D8-C644-71A331E6F06A" name="Contest">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<completeSubtypes>true</completeSubtypes>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Abbreviation" id="E50D5DB7-B6E2-1BD3-9FC6-DAA1934178F0">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="72EE50A9-8C29-AB2D-17CD-76B0576E264F">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OtherVoteVariation" id="3510CC9D-E001-506E-59F9-0AD5B79C1025">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VoteVariation" id="608AF84A-7D50-153B-FA32-A08ECEC737C4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>34143DBA-2F16-46E4-D496-141AA32EB8A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

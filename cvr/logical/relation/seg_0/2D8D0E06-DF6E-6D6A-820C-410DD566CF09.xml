@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CVRWriteIn_WriteInImage" directorySegmentName="seg_0" id="2D8D0E06-DF6E-6D6A-820C-410DD566CF09">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnTarget>WriteInImage</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C9D62B8A-EAD0-9EE4-31AA-53E14D2E4961</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>693F54F7-22E2-28E6-98AE-8B112C4FB81F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="WriteInImage"/>
+</propertyMap>
+</Relation>

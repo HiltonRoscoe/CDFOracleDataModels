@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CVR_" directorySegmentName="seg_0" id="BE4BA9C7-FFB7-ED82-623C-3557AA09E5B4">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99A4190D-685A-E08F-14D5-963F7BA6AF1A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BCDE363E-F0C5-196B-E44A-30E6B305835C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="CVR"/>
+</propertyMap>
+</Relation>

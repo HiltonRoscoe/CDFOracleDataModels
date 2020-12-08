@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SelectionPosition_CVRWriteIn" directorySegmentName="seg_0" id="43E695FD-FB6E-089E-E6D8-BCEE7FBB0F16">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>693F54F7-22E2-28E6-98AE-8B112C4FB81F</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>693F54F7-22E2-28E6-98AE-8B112C4FB81F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>37A77FC0-6335-EECD-1A95-8B59380C4965</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

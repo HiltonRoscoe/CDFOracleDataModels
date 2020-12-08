@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SelectionPosition_Status" directorySegmentName="seg_0" id="47E1143D-2F49-2839-9886-BCEBA25A1B38">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>567FC547-4FF9-A934-7D57-1DACBD4DC770</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>37A77FC0-6335-EECD-1A95-8B59380C4965</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="SelectionPosition"/>
+</propertyMap>
+</Relation>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CVR_BallotImage" directorySegmentName="seg_0" id="63F13436-358A-21D0-784F-46A809158FAE">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnTarget>BallotImage</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C9D62B8A-EAD0-9EE4-31AA-53E14D2E4961</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCDE363E-F0C5-196B-E44A-30E6B305835C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="CVR"/>
+</propertyMap>
+</Relation>

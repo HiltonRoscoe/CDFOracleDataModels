@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CVR_CreatingDevice" directorySegmentName="seg_0" id="C53C6011-B80C-B5A4-712D-39F3981A961A">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<dominantRole>77281903-ADAD-BD5D-3406-23CC0A5F3B94</dominantRole>
+<identifying>false</identifying>
+<nameOnTarget>CreatingDevice</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77281903-ADAD-BD5D-3406-23CC0A5F3B94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCDE363E-F0C5-196B-E44A-30E6B305835C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="CreatingDevice"/>
+</propertyMap>
+</Relation>

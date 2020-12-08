@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReportingDevice_Notes" directorySegmentName="seg_0" id="A7F2F109-FE8D-DC0B-FC52-7ADF7A0BA972">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:55 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>620FE5AF-E468-0038-D346-DD94F4DB4303</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>77281903-ADAD-BD5D-3406-23CC0A5F3B94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="ReportingDevice"/>
+</propertyMap>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Annotation_AdjudicatorName" directorySegmentName="seg_0" id="ADCDD5BD-9D87-9FA1-8157-6F02EB7DC94E">
+<createdBy>john</createdBy>
+<createdTime>2020-12-08 12:58:54 UTC</createdTime>
+<ownerDesignName>cvr</ownerDesignName>
+<engineerTo>
+<item key="C507ADBB-6364-1BD9-DF9F-98A5D1B602E7" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3F4F79BF-06CF-F268-41A7-995BC55C798F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F44A61CE-6F49-662D-80BF-CE135757FFCC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<propertyMap>
+<property name="fkRole" value="Annotation"/>
+</propertyMap>
+</Relation>
